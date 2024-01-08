@@ -1,0 +1,1045 @@
+@import "./utilidades/variables";
+@import "./utilidades/mixin";
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*PAGINA INICIO*/
+
+main{
+    .fondo-inicio{
+        background-image: url(../assets/ed\ and\ lorraine\ warren.jpeg);
+        width: 100%;
+        background-repeat: none;
+        background-size: cover;
+        
+        .frase-ed{
+            color: #f1b307;
+            @include parrafo-centro(text-align);
+            font-size: 170%;
+            font-family: 'Roboto Mono', monospace;
+            text-shadow: 4px 3px 4px rgb(61, 59, 59);
+            padding: 43% 3% 0% 2%;
+        }
+
+        .ed-warren{
+            color: #f1b307;
+            text-align: right;
+            font-size: 170%;
+            font-family: 'Roboto Mono', monospace;
+            text-shadow: 4px 3px 4px rgb(61, 59, 59);
+            padding: 2% 7% 0% 0%;
+        }
+    }
+    
+    section{
+        .titulo-inicio{
+            font-family: $font-title;
+            @include parrafo-centro(text-align);
+            font-size: 220%;
+            padding-top: 4%;
+        }
+    }
+
+    .info-inicio{
+        display: flex;
+        background-color: rgb(255, 255, 237);
+        margin: 2% 7% 0% 7%;
+        padding-bottom: 3%;
+
+        div{
+            .quienes-son{
+                font-family: $font-title;
+                font-size: 170%;
+                margin: 7% 0% 0% 40%;
+            }
+
+            .info1{
+                text-align: left;
+                font-family: $font-title;
+                font-size: 112%;
+                margin: 3% 0% 0% 13%;
+                width: 80%;
+                color: rgb(87, 87, 87);
+            }
+
+            .info{
+                text-align: left;
+                font-family: $font-title;
+                font-size: 112%;
+                margin: 5% 0px 0px 13%;
+                width: 80%;
+                color: rgb(87, 87, 87);
+
+                .acceso-biografia{
+                    color: rgb(146, 80, 207);
+                }
+            }
+        }
+
+        .familia{
+            width: 170%;
+            height: 20%;
+            margin: 5% 7% 0% 0%;
+        }
+    }
+}
+
+/*CIERRE*/
+
+
+
+
+
+
+
+/*PAGINA BIOGRAFIA*/
+
+main{
+    .fondo-biografia{
+        background-image: url(../assets/museo-warrens.jpg);
+        background-repeat: none;
+        background-size: cover;
+        height: 400px;
+
+        .biografia{
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 440%;
+            padding: 20% 0% 0% 5%;
+        }
+        
+    }
+
+    section{
+        .eyl-biografia{
+            font-family: $font-title;
+            color: rgb(15, 15, 15);
+            @include parrafo-centro(text-align);
+            font-size: 220%;
+            padding: 4% 0% 0% 1%;
+        }
+
+        .conmemoracion{
+            font-size: 115%;
+            color: rgb(49, 49, 49);
+            @include parrafo-centro(text-align);
+            padding: 1% 7% 0% 7%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+
+    .sobre-warrens{
+        display: flex;
+        padding: 5%;
+
+        div{
+            .sobre-ellos{
+                font-family: $font-title;
+                color: rgb(31, 31, 31);
+                font-size: 190%;
+                padding: 3% 0% 0% 2%;
+            }
+
+            .bio1{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: left;
+                font-size: 110%;
+                margin: 3% 0% 0% 2%;
+                width: 95%;
+                color: rgb(87, 87, 87);
+            }
+            
+            .bio{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                text-align: left;
+                font-size: 110%;
+                margin: 3% 0% 0% 2%;
+                width: 95%;
+                color: rgb(94, 94, 94);
+            }
+        }
+
+        .img-warrens-biografia{
+            padding: 3% 0% 0% 2%;
+            width: 50%;
+        }
+    }
+
+    .linea-temporal-titulo{
+        font-family: $font-title;
+        color: rgb(39, 39, 39);
+        @include parrafo-centro(text-align);
+        font-size: 220%;
+        padding: 5% 0% 0% 0%;
+    }
+
+    .calendario{
+        width: 104%;
+    }
+
+    .linea-temporal{
+        display: flex;
+
+        .div-se-conocen{
+            margin: 3% 2% 0% 8%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .seconocen{
+                color: rgb(94, 94, 94);
+                text-align: right;
+                font-family: $font-title;
+                font-size: 140%;
+                padding: 7% 7% 0% 0%;
+            }
+            
+            .seconocen2{
+                font-family: $font-title;
+                color: rgb(48, 48, 48);
+                text-align: right;
+                font-size: 105%;
+                padding: 4% 7% 7% 7%;
+            }
+            
+            .warrens1{
+                width: 85%;
+                padding: 0% 0% 7% 8%;
+            }
+        }
+
+        .calendario1944{
+            padding: 20% 53% 0% 0%;
+
+            .año1944{
+                color: rgb(65, 65, 65);
+                @include parrafo-centro(text-align);
+                font-size: 95%;
+            }
+        }
+    }
+
+    /*ED ES DESPLEGADO*/
+
+    section{
+        .calendario1945{
+            padding: 27% 0% 0% 53%;
+
+            .año1945{
+                color: rgb(65, 65, 65);
+                @include parrafo-centro(text-align);
+                font-size: 95%;
+            }
+        }
+
+        .div-ed-desplegado{
+            margin: 3% 8% 0% 2%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .desplegado{
+                color: rgb(94, 94, 94);
+                text-align: left;
+                font-family: $font-title;
+                font-size: 140%;
+                padding: 7% 0% 0% 7%;
+            }
+            
+            .desplegado2{
+                font-family: $font-title;
+                color: rgb(48, 48, 48);
+                text-align: left;
+                font-size: 105%;
+                padding: 4% 7% 7% 7%;
+            }
+            
+            .ed-en-barco{
+                width: 70%;
+                padding: 0px 0px 7% 7%;
+            } 
+        }
+    }
+
+    section{
+        .div-casamiento{
+            margin: 2% 8% 0% 57%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .casamiento{
+                color: rgb(94, 94, 94);
+                text-align: left;
+                font-family: $font-title;
+                font-size: 140%;
+                padding: 7% 0% 0% 7%;
+            }
+            
+            .casamiento2{
+                font-family: $font-title;
+                color: rgb(48, 48, 48);
+                text-align: left;
+                font-size: 105%;
+                padding: 4% 7% 7% 7%;
+            }
+        }
+    }
+
+    /*NACE JUDY*/
+    section{
+        .div-familia-crece{
+            margin: 3% 2% 0% 8%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .familiacrece{
+                color: rgb(94, 94, 94);
+                text-align: right;
+                font-family: $font-title;
+                font-size: 140%;
+                padding: 7% 7% 0% 0%;
+            }
+            
+            .familiacrece2{
+                font-family: $font-title;
+                color: rgb(48, 48, 48);
+                text-align: right;
+                font-size: 105%;
+                padding: 4% 7% 7% 7%;
+            }
+            
+            .judy{
+                width: 64%;
+                padding: 0% 0% 7% 28%;
+            }
+        }
+
+        .calendario1951{
+            padding: 26% 53% 0% 0%;
+
+            .año1951{
+                color: rgb(65, 65, 65);
+                @include parrafo-centro(text-align);
+                font-size: 95%;
+            }
+            
+        }
+        
+    }
+
+
+    /*ED EN LA ESCUELA DE ARTE*/
+
+    section{
+        .div-escuela-arte{
+            margin: 2% 57% 0% 8%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .escuelaarte{
+                color: rgb(94, 94, 94);
+                text-align: right;
+                font-family: $font-title;
+                font-size: 140%;
+                padding: 7% 7% 0% 0%;
+            }
+            
+            .escuelaarte2{
+                font-family: $font-title;
+                color: rgb(48, 48, 48);
+                text-align: right;
+                font-size: 105%;
+                padding: 4% 7% 7% 7%;
+            }
+        }
+    }
+
+    section{
+        .calendario1952{
+            padding: 9% 0% 0% 53%;
+
+            .año1952{
+                color: rgb(65, 65, 65);
+                text-align: center;
+                font-size: 95%;
+            }
+            
+        }
+
+        .div-ed-carretera{
+            margin: 3% 8% 0% 2%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .carretera{
+                color: rgb(94, 94, 94);
+                text-align: left;
+                font-family: $font-title;
+                font-size: 140%;
+                padding: 7% 0% 0% 7%;
+            }
+            
+            .carretera2{
+                font-family: $font-title;
+                color: rgb(48, 48, 48);
+                text-align: left;
+                font-size: 105%;
+                padding: 4% 7% 7% 7%;
+            }
+            
+        }
+        
+    }
+
+
+    /*SE CREA NESPR*/
+
+    section{
+        .div-nespr{
+            margin: 2% 8% 0% 57%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .nespr{
+                color: rgb(94, 94, 94);
+                text-align: left;
+                font-family: $font-title;
+                font-size: 140%;
+                padding: 7% 0% 0% 7%;
+            }
+            
+            .nespr2{
+                font-family: $font-title;
+                color: rgb(48, 48, 48);
+                text-align: left;
+                font-size: 105%;
+                padding: 4% 7% 7% 7%;
+            }
+            
+        }
+    }
+
+
+    /*MUSEO*/
+
+    section{
+        .museo-titulo{
+            font-family: $font-title;
+            color: rgb(15, 15, 15);
+            @include parrafo-centro(text-align);
+            font-size: 190%;
+            padding: 5% 0% 0% 0%;
+        }
+        
+        .museo-info{
+            font-size: 113%;
+            color: rgb(49, 49, 49);
+            @include parrafo-centro(text-align);
+            padding: 0% 3% 0% 3%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+
+    .ubicacion{
+        display: flex;
+
+        iframe{
+            width: 35%;
+            padding: 3% 0% 3% 6%;
+        }
+        
+        .museo-ubi{
+            width: 50%;
+            height: 30%;
+            padding: 3% 0% 0% 4%;
+        }
+    }
+}
+
+/*CIERRE*/
+
+
+
+
+
+
+/*PAGINA CASOS*/
+
+main{
+    .fondo-casos{
+        background-image: url(../assets/archivos.jpeg);
+        background-repeat: none;
+        background-size: cover;
+        height: 400px;
+
+        .casos{
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 440%;
+            padding: 20% 0% 0% 5%;
+        }
+    }
+
+    section{
+        .archivos{
+            font-family: $font-title;
+            color: rgb(15, 15, 15);
+            @include parrafo-centro(text-align);
+            font-size: 190%;
+            padding: 3% 0% 0% 0%;
+        }
+        
+        .sus-carreras{
+            font-size: 115%;
+            color: rgb(49, 49, 49);
+            @include parrafo-centro(text-align);
+            padding: 0% 7% 0% 7%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+
+    /*ANNABELLE*/
+
+    .top3-peliculas{
+        display: flex;
+
+        .div-annabelle{
+            margin: 5% 2% 0% 8%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .annabelle-titulo{
+                color: rgb(94, 94, 94);
+                text-align: right;
+                font-family: $font-title;
+                font-size: 150%;
+                padding: 6% 6% 0% 0%;
+            }
+            
+            .annabelle-info{
+                color: rgb(48, 48, 48);
+                text-align: right;
+                font-size: 105%;
+                padding: 5% 6% 6% 6%;
+            }
+            
+            .muñeca-annabelle{
+                width: 85%;
+                padding: 0% 0% 6% 7%;
+            }
+        }
+
+        .calendario1968{
+            padding: 26% 53% 0% 0%;
+
+            .año1968{
+                color: rgb(65, 65, 65);
+                @include parrafo-centro(text-align);
+                font-size: 95%;
+            }
+        }
+    }
+
+    /*LA FAMILIA PERRON*/
+
+    section{
+        .calendario1971{
+            padding: 29% 0% 0% 53%;
+
+            .año1971{
+                color: rgb(65, 65, 65);
+                @include parrafo-centro(text-align);
+                font-size: 95%;
+            }
+        }
+
+        .div-perron{
+            margin: 5% 8% 0% 2%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .perron-titulo{
+                color: rgb(94, 94, 94);
+                text-align: left;
+                font-family: $font-title;
+                font-size: 150%;
+                padding: 6% 0% 0% 6%;
+            }
+            
+            .perron-info{
+                color: rgb(48, 48, 48);
+                text-align: left;
+                font-size: 105%;
+                padding: 5% 6% 6% 6%;
+            }
+            
+            .familia-perron{
+                width: 75%;
+                padding: 0% 0% 6% 7%;
+            }
+        }
+    }
+
+
+
+    /*AMITYVILLE*/
+
+    section{
+        .div-amityville{
+            margin: 5% 2% 0% 8%;
+            background-color: $color-fondo;
+            border-radius: 2%;
+
+            .amityville-titulo{
+                color: rgb(94, 94, 94);
+                text-align: right;
+                font-family: $font-title;
+                font-size: 150%;
+                padding: 6% 6% 0% 0%;
+            }
+            
+            .amityville-info{
+                color: rgb(48, 48, 48);
+                text-align: right;
+                font-size: 105%;
+                padding: 5% 6% 6% 6%;
+            }
+            
+            .casa-amityville{
+                width: 85%;
+                padding: 0% 0% 5% 8%;
+            }
+        }
+
+        .calendario1974{
+            padding: 29% 53% 0% 0%;
+
+            .año1974{
+                color: rgb(65, 65, 65);
+                @include parrafo-centro(text-align);
+                font-size: 95%;
+            }
+        }
+        
+    }
+
+
+    section{
+        .otros-casos{
+            font-family: $font-title;
+            color: rgb(15, 15, 15);
+            @include parrafo-centro(text-align);
+            font-size: 190%;
+            padding: 4% 0% 0% 0%;
+        }
+
+        .investigaciones{
+            font-size: 115%;
+            color: rgb(49, 49, 49);
+            @include parrafo-centro(text-align);
+            padding: 0% 4% 0% 4%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+    }
+
+    span a{
+        color:rgb(73, 73, 158)violet;
+    }
+
+    /*JUICIO ASESINATO*/
+
+    .juicio-asesinato{
+        display: flex;
+
+        div{
+            .juicio-titulo{
+                color: rgb(44, 44, 44);
+                font-family: $font-title;
+                font-size: 155%;
+                margin: 7% 0px 0px 21%;
+            }
+            
+            .juicio1{
+                text-align: left;
+                font-size: 115%;
+                margin: 3% 0% 0% 13%;
+                width: 80%;
+                color: $color-text;
+            }
+            
+            .juicio2{
+                text-align: left;
+                font-size: 115%;
+                margin: 6% 0% 0% 13%;
+                width: 80%;
+                color: $color-text;
+            }
+        }
+
+        .arne{
+            width: 70%;
+            padding: 4% 5% 0% 0%;
+        }
+    }
+
+
+    /*HOMBRE LOBO*/
+
+    .hombre-lobo{
+        display: flex;
+
+        div{
+            .hombrelobo-titulo{
+                color: rgb(36, 36, 36);
+                font-family: $font-title;
+                font-size: 155%;
+                margin: 13% 0% 0% 44%;
+            }
+            
+            .hombrelobo-info1{
+                text-align: right;
+                font-size: 115%;
+                margin: 2% 0% 0% 10%;
+                width: 80%;
+                color: $color-text;
+            }
+            
+            .hombrelobo-info2{
+                text-align: right;
+                font-size: 115%;
+                margin: 3% 0% 0% 10%;;
+                width: 80%;
+                color: $color-text;
+            }
+            
+            .hombrelobo-info3{
+                text-align: right;
+                font-size: 115%;
+                margin: 3% 0% 0% 10%;
+                width: 80%;
+                color: $color-text;
+            }
+        }
+
+        .bill{
+            width: 190%;
+            padding: 9% 0% 0% 7%;
+        }
+    }
+
+
+
+    /*FAMILIA SMURL*/
+
+    .familia-smurl{
+        display: flex;
+        padding-right: 9%;
+
+        .div-smurls{
+            width: 60%;
+
+            .smurl-titulo{
+                color: rgb(36, 36, 36);
+                font-family: $font-title;
+                font-size: 155%;
+                margin: 16% 0% 0% 40%;
+            }
+            
+            .smurl-info1{
+                text-align: left;
+                font-size: 115%;
+                margin: 3% 0% 0% 11%;
+                width: 80%;
+                color: $color-text;
+            }
+            
+            .smurl-info2{
+                text-align: left;
+                font-size: 115%;
+                margin: 5% 0% 0% 11%;
+                width: 80%;
+                color: $color-text;
+            }
+            
+            .smurl-info3{
+                text-align: left;
+                font-size: 115%;
+                margin: 5% 0% 0% 11%;
+                width: 80%;
+                color: $color-text;
+            }
+            
+            .smurl-info4{
+                text-align: left;
+                font-size: 115%;
+                margin: 5% 0% 0% 11%;
+                width: 80%;
+                color: $color-text;
+            }
+        }
+
+        .imagenes-familiasmurl{
+            width: 40%;
+
+            .los-smurls{
+                width: 90%;
+                padding: 30% 0% 0% 9%;
+            }
+            
+            .casa-smurls{
+                width: 100%;
+                padding: 10% 0% 0% 4%;
+            }
+        }
+    }
+
+
+
+    /*FAMILIA SNEDEKER*/
+
+    .familia-snedeker{
+        display: flex;
+        padding-bottom: 4%;
+
+        .los-snedekers{
+            width: 190%;
+            padding: 10% 0% 0% 6%;
+        }
+
+        div{
+            .snedekers-titulo{
+                color: rgb(36, 36, 36);
+                font-family: $font-title;
+                font-size: 155%;
+                margin: 15% 0% 0% 45%;
+            }
+            
+            .snedekers-info1{
+                text-align: right;
+                font-size: 115%;
+                margin: 4% 0% 0% 9%;
+                width: 81%;
+                color: $color-text;
+            }
+            
+            .snedekers-info2{
+                text-align: right;
+                font-size: 115%;
+                margin: 3% 0% 0% 9%;
+                width: 81%;
+                color: $color-text;
+            }
+        }
+    }
+}
+
+
+
+/*PAGINA PELICULAS*/
+
+main{
+    .fondo-peliculas{
+        background-image: url(../assets/peliculas.jpeg);
+        background-repeat: none;
+        background-size: cover;
+        height: 400px;
+
+        .peliculas{
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 440%;
+            padding: 20% 0% 0% 5%;
+        }
+        
+    }
+
+    section{
+        .saga{
+            font-family: $font-title;
+            color: rgb(15, 15, 15);
+            @include parrafo-centro(text-align);
+            font-size: 185%;
+            padding: 50px 0px 0px 0px;
+        }
+        
+        .sagainfo1{
+            font-size: 113%;
+            color: rgb(49, 49, 49);
+            @include parrafo-centro(text-align);
+            padding: 1% 5% 0% 5%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        .sagainfo2{
+            font-size: 113%;
+            color: rgb(49, 49, 49);
+            @include parrafo-centro(text-align);
+            padding: 0% 5% 0% 5%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    }
+
+    /*PELICULAS*/
+
+    .SagaPeliculas{
+        display: flex;
+        padding-top: 8%;
+
+        .img-peliculas{
+            width: 30%;
+            padding: 0% 3% 0% 5%;
+        }
+
+        div{
+            .titulo-peliculas{
+                font-size: 180%;
+                color: rgb(36, 36, 36);
+                font-family: $font-title;
+            }
+            
+            .info-peliculas{
+                font-size: 112%;
+                padding: 1% 8% 0% 0%;
+                color: rgb(48, 47, 47);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            
+            .fecha-peliculas{
+                font-size: 112%;
+                padding-top: 2%;
+                color: rgb(48, 47, 47);
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+        }
+    }
+
+    span{
+        color: rgb(20, 20, 20);
+        font-weight: bold;
+    }
+
+}
+
+
+
+/*PAGINA CONTACTO*/
+
+main{
+    .fondo-contacto{
+        background-image: url(../assets/museo-warrens.jpg);
+        background-repeat: none;
+        background-size: cover;
+        height: 400px;
+
+        .contacto{
+            color: white;
+            font-family: 'Playfair Display', serif;
+            font-size: 440%;
+            padding: 20% 0% 0% 5%;
+        }
+    }
+
+    .contactenos{
+        display: flex;
+
+        div{
+            .contacto-titulo{
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                color: rgb(32, 32, 32);
+                font-size: 180%;
+                padding: 6% 0% 0% 33%;
+            }
+            
+            .ayuda{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 115%;
+                color: rgb(49, 49, 49);
+                width: 80%;
+                padding: 1% 0% 0% 8%;
+            }
+            
+            .gmail{
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 115%;
+                color: rgb(139, 21, 21);
+                width: 80%;
+                padding: 1% 0% 0% 8%;
+            }
+        }
+
+        .formulario{
+            background-color: rgb(253, 253, 226);
+            width: 60%;
+            padding: 0% 5% 3% 0%;
+            margin: 4% 7% 0% 0%;
+            border-radius: 2%;
+
+            .form{
+                padding: 8% 0% 0% 15%;
+
+                div{
+                    .label1{
+                        display: flex;
+                        font-family: $font-title;
+                        font-size: 120%;
+                        padding: 0% 0% 1% 0%;
+                    }
+                    
+                    .label{
+                        display: flex;
+                        font-family: $font-title;
+                        font-size: 120%;
+                        padding: 6% 0% 1% 0%;
+                    }
+                    
+                    .textarea{
+                        width: 100%;
+                    }
+
+                    input{
+                        width: 100%;
+                        height: 40px;
+                    }
+                }
+            }
+
+            .boton-enviar{
+                width: 17%;
+                margin: 4% 0% 0% 50%;
+            }
+            
+        }
+    }
+}
+
+
+
+/*FOOTER START*/
+
+body{
+    footer{
+        width: 100%;
+        padding-bottom: 1%;
+        display: inline-block;
+
+        .google{
+            margin: 2% 3% 0% 5%;
+        }
+        
+        .youtube{
+            margin: 2% 2% 0% 0%;
+        }
+        
+        p{
+            color: rgb(107, 107, 107);
+            display: inline;
+            margin: 0% 0% 0% 63%;
+        }
+    }
+    
+}

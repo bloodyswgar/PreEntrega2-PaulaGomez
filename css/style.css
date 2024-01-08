@@ -1,1728 +1,774 @@
-*{
-    margin: 0;
-    padding: 0;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
 }
-
-/*INICIO DE BARRA DE NAVEGACION*/
-
-
-li a:hover{
-    color: rgb(201, 9, 9);
-    transition: 1s;
-    cursor: pointer;
-}
-
-
-/*CIERRE*/
-
-
-
-
-
 
 /*PAGINA INICIO*/
-.fondo-inicio{
-    background-image: url(../assets/ed\ and\ lorraine\ warren.jpeg);
-    width: 100%;
-    background-repeat: none;
-    background-size: cover;
+main .fondo-inicio {
+  background-image: url(../assets/ed\ and\ lorraine\ warren.jpeg);
+  width: 100%;
+  background-repeat: none;
+  background-size: cover;
+}
+main .fondo-inicio .frase-ed {
+  color: #f1b307;
+  text-align: center;
+  font-size: 170%;
+  font-family: "Roboto Mono", monospace;
+  text-shadow: 4px 3px 4px rgb(61, 59, 59);
+  padding: 43% 3% 0% 2%;
+}
+main .fondo-inicio .ed-warren {
+  color: #f1b307;
+  text-align: right;
+  font-size: 170%;
+  font-family: "Roboto Mono", monospace;
+  text-shadow: 4px 3px 4px rgb(61, 59, 59);
+  padding: 2% 7% 0% 0%;
+}
+main section .titulo-inicio {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-size: 220%;
+  padding-top: 4%;
+}
+main .info-inicio {
+  display: flex;
+  background-color: rgb(255, 255, 237);
+  margin: 2% 7% 0% 7%;
+  padding-bottom: 3%;
+}
+main .info-inicio div .quienes-son {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 170%;
+  margin: 7% 0% 0% 40%;
+}
+main .info-inicio div .info1 {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 112%;
+  margin: 3% 0% 0% 13%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .info-inicio div .info {
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 112%;
+  margin: 5% 0px 0px 13%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .info-inicio div .info .acceso-biografia {
+  color: rgb(146, 80, 207);
+}
+main .info-inicio .familia {
+  width: 170%;
+  height: 20%;
+  margin: 5% 7% 0% 0%;
+}
+
+main .fondo-biografia {
+  background-image: url(../assets/museo-warrens.jpg);
+  background-repeat: none;
+  background-size: cover;
+  height: 400px;
+}
+main .fondo-biografia .biografia {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 440%;
+  padding: 20% 0% 0% 5%;
+}
+main section .eyl-biografia {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 220%;
+  padding: 4% 0% 0% 1%;
+}
+main section .conmemoracion {
+  font-size: 115%;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 1% 7% 0% 7%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .sobre-warrens {
+  display: flex;
+  padding: 5%;
+}
+main .sobre-warrens div .sobre-ellos {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(31, 31, 31);
+  font-size: 190%;
+  padding: 3% 0% 0% 2%;
+}
+main .sobre-warrens div .bio1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  font-size: 110%;
+  margin: 3% 0% 0% 2%;
+  width: 95%;
+  color: rgb(87, 87, 87);
+}
+main .sobre-warrens div .bio {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: left;
+  font-size: 110%;
+  margin: 3% 0% 0% 2%;
+  width: 95%;
+  color: rgb(94, 94, 94);
+}
+main .sobre-warrens .img-warrens-biografia {
+  padding: 3% 0% 0% 2%;
+  width: 50%;
+}
+main .linea-temporal-titulo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(39, 39, 39);
+  text-align: center;
+  font-size: 220%;
+  padding: 5% 0% 0% 0%;
+}
+main .calendario {
+  width: 104%;
+}
+main .linea-temporal {
+  display: flex;
+}
+main .linea-temporal .div-se-conocen {
+  margin: 3% 2% 0% 8%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main .linea-temporal .div-se-conocen .seconocen {
+  color: rgb(94, 94, 94);
+  text-align: right;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 140%;
+  padding: 7% 7% 0% 0%;
+}
+main .linea-temporal .div-se-conocen .seconocen2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(48, 48, 48);
+  text-align: right;
+  font-size: 105%;
+  padding: 4% 7% 7% 7%;
+}
+main .linea-temporal .div-se-conocen .warrens1 {
+  width: 85%;
+  padding: 0% 0% 7% 8%;
+}
+main .linea-temporal .calendario1944 {
+  padding: 20% 53% 0% 0%;
+}
+main .linea-temporal .calendario1944 .año1944 {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-size: 95%;
+}
+main section .calendario1945 {
+  padding: 27% 0% 0% 53%;
+}
+main section .calendario1945 .año1945 {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-size: 95%;
+}
+main section .div-ed-desplegado {
+  margin: 3% 8% 0% 2%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-ed-desplegado .desplegado {
+  color: rgb(94, 94, 94);
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 140%;
+  padding: 7% 0% 0% 7%;
+}
+main section .div-ed-desplegado .desplegado2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(48, 48, 48);
+  text-align: left;
+  font-size: 105%;
+  padding: 4% 7% 7% 7%;
+}
+main section .div-ed-desplegado .ed-en-barco {
+  width: 70%;
+  padding: 0px 0px 7% 7%;
+}
+main section .div-casamiento {
+  margin: 2% 8% 0% 57%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-casamiento .casamiento {
+  color: rgb(94, 94, 94);
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 140%;
+  padding: 7% 0% 0% 7%;
+}
+main section .div-casamiento .casamiento2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(48, 48, 48);
+  text-align: left;
+  font-size: 105%;
+  padding: 4% 7% 7% 7%;
+}
+main section .div-familia-crece {
+  margin: 3% 2% 0% 8%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-familia-crece .familiacrece {
+  color: rgb(94, 94, 94);
+  text-align: right;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 140%;
+  padding: 7% 7% 0% 0%;
+}
+main section .div-familia-crece .familiacrece2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(48, 48, 48);
+  text-align: right;
+  font-size: 105%;
+  padding: 4% 7% 7% 7%;
+}
+main section .div-familia-crece .judy {
+  width: 64%;
+  padding: 0% 0% 7% 28%;
+}
+main section .calendario1951 {
+  padding: 26% 53% 0% 0%;
+}
+main section .calendario1951 .año1951 {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-size: 95%;
+}
+main section .div-escuela-arte {
+  margin: 2% 57% 0% 8%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-escuela-arte .escuelaarte {
+  color: rgb(94, 94, 94);
+  text-align: right;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 140%;
+  padding: 7% 7% 0% 0%;
+}
+main section .div-escuela-arte .escuelaarte2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(48, 48, 48);
+  text-align: right;
+  font-size: 105%;
+  padding: 4% 7% 7% 7%;
+}
+main section .calendario1952 {
+  padding: 9% 0% 0% 53%;
+}
+main section .calendario1952 .año1952 {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-size: 95%;
+}
+main section .div-ed-carretera {
+  margin: 3% 8% 0% 2%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-ed-carretera .carretera {
+  color: rgb(94, 94, 94);
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 140%;
+  padding: 7% 0% 0% 7%;
+}
+main section .div-ed-carretera .carretera2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(48, 48, 48);
+  text-align: left;
+  font-size: 105%;
+  padding: 4% 7% 7% 7%;
+}
+main section .div-nespr {
+  margin: 2% 8% 0% 57%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-nespr .nespr {
+  color: rgb(94, 94, 94);
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 140%;
+  padding: 7% 0% 0% 7%;
+}
+main section .div-nespr .nespr2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(48, 48, 48);
+  text-align: left;
+  font-size: 105%;
+  padding: 4% 7% 7% 7%;
+}
+main section .museo-titulo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 190%;
+  padding: 5% 0% 0% 0%;
+}
+main section .museo-info {
+  font-size: 113%;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 0% 3% 0% 3%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .ubicacion {
+  display: flex;
+}
+main .ubicacion iframe {
+  width: 35%;
+  padding: 3% 0% 3% 6%;
+}
+main .ubicacion .museo-ubi {
+  width: 50%;
+  height: 30%;
+  padding: 3% 0% 0% 4%;
+}
+
+main .fondo-casos {
+  background-image: url(../assets/archivos.jpeg);
+  background-repeat: none;
+  background-size: cover;
+  height: 400px;
+}
+main .fondo-casos .casos {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 440%;
+  padding: 20% 0% 0% 5%;
+}
+main section .archivos {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 190%;
+  padding: 3% 0% 0% 0%;
+}
+main section .sus-carreras {
+  font-size: 115%;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 0% 7% 0% 7%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .top3-peliculas {
+  display: flex;
+}
+main .top3-peliculas .div-annabelle {
+  margin: 5% 2% 0% 8%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main .top3-peliculas .div-annabelle .annabelle-titulo {
+  color: rgb(94, 94, 94);
+  text-align: right;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 150%;
+  padding: 6% 6% 0% 0%;
+}
+main .top3-peliculas .div-annabelle .annabelle-info {
+  color: rgb(48, 48, 48);
+  text-align: right;
+  font-size: 105%;
+  padding: 5% 6% 6% 6%;
+}
+main .top3-peliculas .div-annabelle .muñeca-annabelle {
+  width: 85%;
+  padding: 0% 0% 6% 7%;
+}
+main .top3-peliculas .calendario1968 {
+  padding: 26% 53% 0% 0%;
+}
+main .top3-peliculas .calendario1968 .año1968 {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-size: 95%;
+}
+main section .calendario1971 {
+  padding: 29% 0% 0% 53%;
+}
+main section .calendario1971 .año1971 {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-size: 95%;
+}
+main section .div-perron {
+  margin: 5% 8% 0% 2%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-perron .perron-titulo {
+  color: rgb(94, 94, 94);
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 150%;
+  padding: 6% 0% 0% 6%;
+}
+main section .div-perron .perron-info {
+  color: rgb(48, 48, 48);
+  text-align: left;
+  font-size: 105%;
+  padding: 5% 6% 6% 6%;
+}
+main section .div-perron .familia-perron {
+  width: 75%;
+  padding: 0% 0% 6% 7%;
+}
+main section .div-amityville {
+  margin: 5% 2% 0% 8%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 2%;
+}
+main section .div-amityville .amityville-titulo {
+  color: rgb(94, 94, 94);
+  text-align: right;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 150%;
+  padding: 6% 6% 0% 0%;
+}
+main section .div-amityville .amityville-info {
+  color: rgb(48, 48, 48);
+  text-align: right;
+  font-size: 105%;
+  padding: 5% 6% 6% 6%;
+}
+main section .div-amityville .casa-amityville {
+  width: 85%;
+  padding: 0% 0% 5% 8%;
+}
+main section .calendario1974 {
+  padding: 29% 53% 0% 0%;
+}
+main section .calendario1974 .año1974 {
+  color: rgb(65, 65, 65);
+  text-align: center;
+  font-size: 95%;
+}
+main section .otros-casos {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 190%;
+  padding: 4% 0% 0% 0%;
+}
+main section .investigaciones {
+  font-size: 115%;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 0% 4% 0% 4%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main span a {
+  color: rgb(73, 73, 158) violet;
+}
+main .juicio-asesinato {
+  display: flex;
+}
+main .juicio-asesinato div .juicio-titulo {
+  color: rgb(44, 44, 44);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 155%;
+  margin: 7% 0px 0px 21%;
+}
+main .juicio-asesinato div .juicio1 {
+  text-align: left;
+  font-size: 115%;
+  margin: 3% 0% 0% 13%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .juicio-asesinato div .juicio2 {
+  text-align: left;
+  font-size: 115%;
+  margin: 6% 0% 0% 13%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .juicio-asesinato .arne {
+  width: 70%;
+  padding: 4% 5% 0% 0%;
+}
+main .hombre-lobo {
+  display: flex;
+}
+main .hombre-lobo div .hombrelobo-titulo {
+  color: rgb(36, 36, 36);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 155%;
+  margin: 13% 0% 0% 44%;
+}
+main .hombre-lobo div .hombrelobo-info1 {
+  text-align: right;
+  font-size: 115%;
+  margin: 2% 0% 0% 10%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .hombre-lobo div .hombrelobo-info2 {
+  text-align: right;
+  font-size: 115%;
+  margin: 3% 0% 0% 10%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .hombre-lobo div .hombrelobo-info3 {
+  text-align: right;
+  font-size: 115%;
+  margin: 3% 0% 0% 10%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .hombre-lobo .bill {
+  width: 190%;
+  padding: 9% 0% 0% 7%;
+}
+main .familia-smurl {
+  display: flex;
+  padding-right: 9%;
+}
+main .familia-smurl .div-smurls {
+  width: 60%;
+}
+main .familia-smurl .div-smurls .smurl-titulo {
+  color: rgb(36, 36, 36);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 155%;
+  margin: 16% 0% 0% 40%;
+}
+main .familia-smurl .div-smurls .smurl-info1 {
+  text-align: left;
+  font-size: 115%;
+  margin: 3% 0% 0% 11%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .familia-smurl .div-smurls .smurl-info2 {
+  text-align: left;
+  font-size: 115%;
+  margin: 5% 0% 0% 11%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .familia-smurl .div-smurls .smurl-info3 {
+  text-align: left;
+  font-size: 115%;
+  margin: 5% 0% 0% 11%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .familia-smurl .div-smurls .smurl-info4 {
+  text-align: left;
+  font-size: 115%;
+  margin: 5% 0% 0% 11%;
+  width: 80%;
+  color: rgb(87, 87, 87);
+}
+main .familia-smurl .imagenes-familiasmurl {
+  width: 40%;
+}
+main .familia-smurl .imagenes-familiasmurl .los-smurls {
+  width: 90%;
+  padding: 30% 0% 0% 9%;
+}
+main .familia-smurl .imagenes-familiasmurl .casa-smurls {
+  width: 100%;
+  padding: 10% 0% 0% 4%;
+}
+main .familia-snedeker {
+  display: flex;
+  padding-bottom: 4%;
+}
+main .familia-snedeker .los-snedekers {
+  width: 190%;
+  padding: 10% 0% 0% 6%;
+}
+main .familia-snedeker div .snedekers-titulo {
+  color: rgb(36, 36, 36);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 155%;
+  margin: 15% 0% 0% 45%;
+}
+main .familia-snedeker div .snedekers-info1 {
+  text-align: right;
+  font-size: 115%;
+  margin: 4% 0% 0% 9%;
+  width: 81%;
+  color: rgb(87, 87, 87);
+}
+main .familia-snedeker div .snedekers-info2 {
+  text-align: right;
+  font-size: 115%;
+  margin: 3% 0% 0% 9%;
+  width: 81%;
+  color: rgb(87, 87, 87);
+}
+
+main .fondo-peliculas {
+  background-image: url(../assets/peliculas.jpeg);
+  background-repeat: none;
+  background-size: cover;
+  height: 400px;
+}
+main .fondo-peliculas .peliculas {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 440%;
+  padding: 20% 0% 0% 5%;
+}
+main section .saga {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(15, 15, 15);
+  text-align: center;
+  font-size: 185%;
+  padding: 50px 0px 0px 0px;
+}
+main section .sagainfo1 {
+  font-size: 113%;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 1% 5% 0% 5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main section .sagainfo2 {
+  font-size: 113%;
+  color: rgb(49, 49, 49);
+  text-align: center;
+  padding: 0% 5% 0% 5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .SagaPeliculas {
+  display: flex;
+  padding-top: 8%;
+}
+main .SagaPeliculas .img-peliculas {
+  width: 30%;
+  padding: 0% 3% 0% 5%;
+}
+main .SagaPeliculas div .titulo-peliculas {
+  font-size: 180%;
+  color: rgb(36, 36, 36);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+main .SagaPeliculas div .info-peliculas {
+  font-size: 112%;
+  padding: 1% 8% 0% 0%;
+  color: rgb(48, 47, 47);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main .SagaPeliculas div .fecha-peliculas {
+  font-size: 112%;
+  padding-top: 2%;
+  color: rgb(48, 47, 47);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+main span {
+  color: rgb(20, 20, 20);
+  font-weight: bold;
 }
-
-.frase-ed{
-    color: #f1b307;
-    text-align: center;
-    font-size: 170%;
-    font-family: 'Roboto Mono', monospace;
-    text-shadow: 4px 3px 4px rgb(61, 59, 59);
-    padding: 43% 3% 0% 2%;
-}
-
-.ed-warren{
-    color: #f1b307;
-    text-align: right;
-    font-size: 170%;
-    font-family: 'Roboto Mono', monospace;
-    text-shadow: 4px 3px 4px rgb(61, 59, 59);
-    padding: 2% 7% 0% 0%;
-}
-
-.titulo-inicio{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    font-size: 220%;
-    padding-top: 4%;
-}
-
-.info-inicio{
-    display: flex;
-    background-color: rgb(255, 255, 237);
-    margin: 2% 7% 0% 7%;
-    padding-bottom: 3%;
-}
-
-.quienes-son{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 170%;
-    margin: 7% 0% 0% 40%;
-}
-
-.info1{
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 112%;
-    margin: 3% 0% 0% 13%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.info{
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 112%;
-    margin: 5% 0px 0px 13%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.acceso-biografia{
-    color: rgb(146, 80, 207);
-}
-
-.familia{
-    width: 170%;
-    height: 20%;
-    margin: 5% 7% 0% 0%;
-}
-
-/*CIERRE*/
-
-
-
-
-
-
-/*PAGINA BIOGRAFIA*/
-
-.fondo-biografia{
-    background-image: url(../assets/museo-warrens.jpg);
-    background-repeat: none;
-    background-size: cover;
-    height: 400px;
-}
-
-.biografia{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 440%;
-    padding: 20% 0% 0% 5%;
-}
-
-.eyl-biografia{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(15, 15, 15);
-    text-align: center;
-    font-size: 220%;
-    padding: 4% 0% 0% 1%;
-}
-
-.conmemoracion{
-    font-size: 115%;
-    color: rgb(49, 49, 49);
-    text-align: center;
-    padding: 1% 7% 0% 7%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.sobre-warrens{
-    display: flex;
-    padding: 5%;
-}
-
-.sobre-ellos{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(31, 31, 31);
-    font-size: 190%;
-    padding: 3% 0% 0% 2%;
-}
-
-.bio1{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    font-size: 110%;
-    margin: 3% 0% 0% 2%;
-    width: 95%;
-    color: rgb(87, 87, 87);
-}
-
-.bio{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: left;
-    font-size: 110%;
-    margin: 3% 0% 0% 2%;
-    width: 95%;
-    color: rgb(94, 94, 94);
-}
-
-.img-warrens-biografia{
-    padding: 3% 0% 0% 2%;
-    width: 50%;
-}
-
-.linea-temporal-titulo{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(39, 39, 39);
-    text-align: center;
-    font-size: 220%;
-    padding: 5% 0% 0% 0%;
-}
-
-.linea-temporal{
-    display: flex;
-}
-
-.calendario{
-    width: 104%;
-}
-
-/*SE CONOCEN*/
-
-.div-se-conocen{
-    margin: 3% 2% 0% 8%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.seconocen{
-    color: rgb(94, 94, 94);
-    text-align: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140%;
-    padding: 7% 7% 0% 0%;
-}
-
-.seconocen2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(48, 48, 48);
-    text-align: right;
-    font-size: 105%;
-    padding: 4% 7% 7% 7%;
-}
-
-.warrens1{
-    width: 85%;
-    padding: 0% 0% 7% 8%;
-}
-
-.calendario1944{
-    padding: 20% 53% 0% 0%;
-}
-
-.año1944{
-    color: rgb(65, 65, 65);
-    text-align: center;
-    font-size: 95%;
-}
-
-
-/*ED ES DESPLEGADO*/
-
-.calendario1945{
-    padding: 27% 0% 0% 53%;
-}
-
-.año1945{
-    color: rgb(65, 65, 65);
-    text-align: center;
-    font-size: 95%;
-}
-
-.div-ed-desplegado{
-    margin: 3% 8% 0% 2%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.desplegado{
-    color: rgb(94, 94, 94);
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140%;
-    padding: 7% 0% 0% 7%;
-}
-
-.desplegado2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(48, 48, 48);
-    text-align: left;
-    font-size: 105%;
-    padding: 4% 7% 7% 7%;
-}
-
-.ed-en-barco{
-    width: 70%;
-    padding: 0px 0px 7% 7%;
-}
-
-
-/*SE CASAN LOS WARRENS*/
-
-.div-casamiento{
-    margin: 2% 8% 0% 57%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.casamiento{
-    color: rgb(94, 94, 94);
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140%;
-    padding: 7% 0% 0% 7%;
-}
-
-.casamiento2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(48, 48, 48);
-    text-align: left;
-    font-size: 105%;
-    padding: 4% 7% 7% 7%;
-}
-
-
-/*NACE JUDY*/
-
-.div-familia-crece{
-    margin: 3% 2% 0% 8%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.familiacrece{
-    color: rgb(94, 94, 94);
-    text-align: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140%;
-    padding: 7% 7% 0% 0%;
-}
-
-.familiacrece2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(48, 48, 48);
-    text-align: right;
-    font-size: 105%;
-    padding: 4% 7% 7% 7%;
-}
-
-.judy{
-    width: 64%;
-    padding: 0% 0% 7% 28%;
-}
-
-.calendario1951{
-    padding: 26% 53% 0% 0%;
-}
-
-.año1951{
-    color: rgb(65, 65, 65);
-    text-align: center;
-    font-size: 95%;
-}
-
-
-/*ED EN LA ESCUELA DE ARTE*/
-
-.div-escuela-arte{
-    margin: 2% 57% 0% 8%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.escuelaarte{
-    color: rgb(94, 94, 94);
-    text-align: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140%;
-    padding: 7% 7% 0% 0%;
-}
-
-.escuelaarte2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(48, 48, 48);
-    text-align: right;
-    font-size: 105%;
-    padding: 4% 7% 7% 7%;
-}
-
-
-
-/*ED Y LORRAINE CARRETERA*/
-
-.calendario1952{
-    padding: 9% 0% 0% 53%;
-}
-
-.año1952{
-    color: rgb(65, 65, 65);
-    text-align: center;
-    font-size: 95%;
-}
-
-.div-ed-carretera{
-    margin: 3% 8% 0% 2%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.carretera{
-    color: rgb(94, 94, 94);
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140%;
-    padding: 7% 0% 0% 7%;
-}
-
-.carretera2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(48, 48, 48);
-    text-align: left;
-    font-size: 105%;
-    padding: 4% 7% 7% 7%;
-}
-
-
-
-/*SE CREA NESPR*/
-
-.div-nespr{
-    margin: 2% 8% 0% 57%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.nespr{
-    color: rgb(94, 94, 94);
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 140%;
-    padding: 7% 0% 0% 7%;
-}
-
-.nespr2{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(48, 48, 48);
-    text-align: left;
-    font-size: 105%;
-    padding: 4% 7% 7% 7%;
-}
-
-/*MUSEO*/
-
-.museo-titulo{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(15, 15, 15);
-    text-align: center;
-    font-size: 190%;
-    padding: 5% 0% 0% 0%;
-}
-
-.museo-info{
-    font-size: 113%;
-    color: rgb(49, 49, 49);
-    text-align: center;
-    padding: 0% 3% 0% 3%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.ubicacion{
-    display: flex;
-}
-
-iframe{
-    width: 35%;
-    padding: 3% 0% 3% 6%;
-}
-
-.museo-ubi{
-    width: 50%;
-    height: 30%;
-    padding: 3% 0% 0% 4%;
-}
-
-/*CIERRE*/
-
-
-
-
-
-
-
-
-
-/*PAGINA CASOS*/
-.fondo-casos{
-    background-image: url(../assets/archivos.jpeg);
-    background-repeat: none;
-    background-size: cover;
-    height: 400px;
-}
-
-.casos{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 440%;
-    padding: 20% 0% 0% 5%;
-}
-
-.archivos{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(15, 15, 15);
-    text-align: center;
-    font-size: 190%;
-    padding: 3% 0% 0% 0%;
-}
-
-.sus-carreras{
-    font-size: 115%;
-    color: rgb(49, 49, 49);
-    text-align: center;
-    padding: 0% 7% 0% 7%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.top3-peliculas{
-    display: flex;
-}
-
-/*ANNABELLE*/
-
-.div-annabelle{
-    margin: 5% 2% 0% 8%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.annabelle-titulo{
-    color: rgb(94, 94, 94);
-    text-align: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150%;
-    padding: 6% 6% 0% 0%;
-}
-
-.annabelle-info{
-    color: rgb(48, 48, 48);
-    text-align: right;
-    font-size: 105%;
-    padding: 5% 6% 6% 6%;
-}
-
-.muñeca-annabelle{
-    width: 85%;
-    padding: 0% 0% 6% 7%;
-}
-
-.calendario1968{
-    padding: 26% 53% 0% 0%;
-}
-
-.año1968{
-    color: rgb(65, 65, 65);
-    text-align: center;
-    font-size: 95%;
-}
-
-
-/*LA FAMILIA PERRON*/
-
-.calendario1971{
-    padding: 29% 0% 0% 53%;
-}
-
-.año1971{
-    color: rgb(65, 65, 65);
-    text-align: center;
-    font-size: 95%;
-}
-
-.div-perron{
-    margin: 5% 8% 0% 2%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.perron-titulo{
-    color: rgb(94, 94, 94);
-    text-align: left;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150%;
-    padding: 6% 0% 0% 6%;
-}
-
-.perron-info{
-    color: rgb(48, 48, 48);
-    text-align: left;
-    font-size: 105%;
-    padding: 5% 6% 6% 6%;
-}
-
-.familia-perron{
-    width: 75%;
-    padding: 0% 0% 6% 7%;
-}
-
-
-/*AMITYVILLE*/
-
-.div-amityville{
-    margin: 5% 2% 0% 8%;
-    background-color: rgb(236, 236, 236);
-    border-radius: 2%;
-}
-
-.amityville-titulo{
-    color: rgb(94, 94, 94);
-    text-align: right;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 150%;
-    padding: 6% 6% 0% 0%;
-}
-
-.amityville-info{
-    color: rgb(48, 48, 48);
-    text-align: right;
-    font-size: 105%;
-    padding: 5% 6% 6% 6%;
-}
-
-.casa-amityville{
-    width: 85%;
-    padding: 0% 0% 5% 8%;
-}
-
-.calendario1974{
-    padding: 29% 53% 0% 0%;
-}
-
-.año1974{
-    color: rgb(65, 65, 65);
-    text-align: center;
-    font-size: 95%;
-}
-
-
-
-
-
-.otros-casos{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(15, 15, 15);
-    text-align: center;
-    font-size: 190%;
-    padding: 4% 0% 0% 0%;
-}
-
-.investigaciones{
-    font-size: 115%;
-    color: rgb(49, 49, 49);
-    text-align: center;
-    padding: 0% 4% 0% 4%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-span a{
-    color:rgb(73, 73, 158)violet;
-}
-
-/*JUICIO ASESINATO*/
-
-.juicio-asesinato{
-    display: flex;
-}
-
-.juicio-titulo{
-    color: rgb(44, 44, 44);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 155%;
-    margin: 7% 0px 0px 21%;
-}
-
-.juicio1{
-    text-align: left;
-    font-size: 115%;
-    margin: 3% 0% 0% 13%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.juicio2{
-    text-align: left;
-    font-size: 115%;
-    margin: 6% 0% 0% 13%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.arne{
-    width: 70%;
-    padding: 4% 5% 0% 0%;
-}
-
-/*HOMBRE LOBO*/
-
-.hombre-lobo{
-    display: flex;
-}
-
-.hombrelobo-titulo{
-    color: rgb(36, 36, 36);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 155%;
-    margin: 13% 0% 0% 44%;
-}
-
-.hombrelobo-info1{
-    text-align: right;
-    font-size: 115%;
-    margin: 2% 0% 0% 10%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.hombrelobo-info2{
-    text-align: right;
-    font-size: 115%;
-    margin: 3% 0% 0% 10%;;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.hombrelobo-info3{
-    text-align: right;
-    font-size: 115%;
-    margin: 3% 0% 0% 10%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.bill{
-    width: 190%;
-    padding: 9% 0% 0% 7%;
-}
-
-/*FAMILIA SMURL*/
-
-.familia-smurl{
-    display: flex;
-    padding-right: 9%;
-}
-
-.smurl-titulo{
-    color: rgb(36, 36, 36);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 155%;
-    margin: 16% 0% 0% 40%;
-}
-
-.smurl-info1{
-    text-align: left;
-    font-size: 115%;
-    margin: 3% 0% 0% 11%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.smurl-info2{
-    text-align: left;
-    font-size: 115%;
-    margin: 5% 0% 0% 11%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.smurl-info3{
-    text-align: left;
-    font-size: 115%;
-    margin: 5% 0% 0% 11%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.smurl-info4{
-    text-align: left;
-    font-size: 115%;
-    margin: 5% 0% 0% 11%;
-    width: 80%;
-    color: rgb(87, 87, 87);
-}
-
-.div-smurls{
-    width: 60%;
-}
-
-.imagenes-familiasmurl{
-    width: 40%;
-}
-
-.los-smurls{
-    width: 90%;
-    padding: 30% 0% 0% 9%;
-}
-
-.casa-smurls{
-    width: 100%;
-    padding: 10% 0% 0% 4%;
-}
-
-/*FAMILIA SNEDEKER*/
-
-.familia-snedeker{
-    display: flex;
-    padding-bottom: 4%;
-}
-
-.snedekers-titulo{
-    color: rgb(36, 36, 36);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 155%;
-    margin: 15% 0% 0% 45%;
-}
-
-.snedekers-info1{
-    text-align: right;
-    font-size: 115%;
-    margin: 4% 0% 0% 9%;
-    width: 81%;
-    color: rgb(87, 87, 87);
-}
-
-.snedekers-info2{
-    text-align: right;
-    font-size: 115%;
-    margin: 3% 0% 0% 9%;
-    width: 81%;
-    color: rgb(87, 87, 87);
-}
-
-.los-snedekers{
-    width: 190%;
-    padding: 10% 0% 0% 6%;
-}
-
-/*CIERRE*/
-
-
-
-
-
-
-
-/*PAGINA PELICULAS*/
-
-.fondo-peliculas{
-    background-image: url(../assets/peliculas.jpeg);
-    background-repeat: none;
-    background-size: cover;
-    height: 400px;
-}
-
-.peliculas{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 440%;
-    padding: 20% 0% 0% 5%;
-}
-
-.saga{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(15, 15, 15);
-    text-align: center;
-    font-size: 185%;
-    padding: 50px 0px 0px 0px;
-}
-
-.sagainfo1{
-    font-size: 113%;
-    color: rgb(49, 49, 49);
-    text-align: center;
-    padding: 1% 5% 0% 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.sagainfo2{
-    font-size: 113%;
-    color: rgb(49, 49, 49);
-    text-align: center;
-    padding: 0% 5% 0% 5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-
-/*MONJA 1*/
-
-.SagaPeliculas{
-    display: flex;
-    padding-top: 8%;
-}
-
-.img-peliculas{
-    width: 30%;
-    padding: 0% 3% 0% 5%;
-}
-
-.titulo-peliculas{
-    font-size: 180%;
-    color: rgb(36, 36, 36);
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-.info-peliculas{
-    font-size: 112%;
-    padding: 1% 8% 0% 0%;
-    color: rgb(48, 47, 47);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.fecha-peliculas{
-    font-size: 112%;
-    padding-top: 2%;
-    color: rgb(48, 47, 47);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-span{
-    color: rgb(20, 20, 20);
-    font-weight: bold;
-}
-
-/*CIERRE*/
-
-
-
-
-
 
 /*PAGINA CONTACTO*/
-
-.fondo-contacto{
-    background-image: url(../assets/museo-warrens.jpg);
-    background-repeat: none;
-    background-size: cover;
-    height: 400px;
+main .fondo-contacto {
+  background-image: url(../assets/museo-warrens.jpg);
+  background-repeat: none;
+  background-size: cover;
+  height: 400px;
 }
-
-.contacto{
-    color: white;
-    font-family: 'Playfair Display', serif;
-    font-size: 440%;
-    padding: 20% 0% 0% 5%;
+main .fondo-contacto .contacto {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 440%;
+  padding: 20% 0% 0% 5%;
 }
-
-.contacto-titulo{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(32, 32, 32);
-    font-size: 180%;
-    padding: 6% 0% 0% 33%;
+main .contactenos {
+  display: flex;
 }
-
-.ayuda{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 115%;
-    color: rgb(49, 49, 49);
-    width: 80%;
-    padding: 1% 0% 0% 8%;
+main .contactenos div .contacto-titulo {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(32, 32, 32);
+  font-size: 180%;
+  padding: 6% 0% 0% 33%;
 }
-
-.gmail{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 115%;
-    color: rgb(139, 21, 21);
-    width: 80%;
-    padding: 1% 0% 0% 8%;
+main .contactenos div .ayuda {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 115%;
+  color: rgb(49, 49, 49);
+  width: 80%;
+  padding: 1% 0% 0% 8%;
 }
-
-.form{
-    padding: 8% 0% 0% 15%;
+main .contactenos div .gmail {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 115%;
+  color: rgb(139, 21, 21);
+  width: 80%;
+  padding: 1% 0% 0% 8%;
 }
-
-.label1{
-    display: flex;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 120%;
-    padding: 0% 0% 1% 0%;
+main .contactenos .formulario {
+  background-color: rgb(253, 253, 226);
+  width: 60%;
+  padding: 0% 5% 3% 0%;
+  margin: 4% 7% 0% 0%;
+  border-radius: 2%;
 }
-
-.label{
-    display: flex;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 120%;
-    padding: 6% 0% 1% 0%;
+main .contactenos .formulario .form {
+  padding: 8% 0% 0% 15%;
 }
-
-.textarea{
-    width: 100%;
+main .contactenos .formulario .form div .label1 {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 120%;
+  padding: 0% 0% 1% 0%;
 }
-
-input{
-    width: 100%;
-    height: 40px;
+main .contactenos .formulario .form div .label {
+  display: flex;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 120%;
+  padding: 6% 0% 1% 0%;
 }
-
-.boton-enviar{
-    width: 17%;
-    margin: 4% 0% 0% 50%;
+main .contactenos .formulario .form div .textarea {
+  width: 100%;
 }
-
-.contactenos{
-    display: flex;
+main .contactenos .formulario .form div input {
+  width: 100%;
+  height: 40px;
 }
-
-.formulario{
-    background-color: rgb(253, 253, 226);
-    width: 60%;
-    padding: 0% 5% 3% 0%;
-    margin: 4% 7% 0% 0%;
-    border-radius: 2%;
+main .contactenos .formulario .boton-enviar {
+  width: 17%;
+  margin: 4% 0% 0% 50%;
 }
-
-/*CIERRE*/
-
-
-
-
-
-
-
-
 
 /*FOOTER START*/
-
-footer{
-    width: 100%;
-    padding-bottom: 1%;
-    display: inline-block;
+body footer {
+  width: 100%;
+  padding-bottom: 1%;
+  display: inline-block;
+}
+body footer .google {
+  margin: 2% 3% 0% 5%;
+}
+body footer .youtube {
+  margin: 2% 2% 0% 0%;
+}
+body footer p {
+  color: rgb(107, 107, 107);
+  display: inline;
+  margin: 0% 0% 0% 63%;
 }
 
-.google{
-    margin: 2% 3% 0% 5%;
-}
-
-.youtube{
-    margin: 2% 2% 0% 0%;
-}
-
-footer p{
-    color: rgb(107, 107, 107);
-    display: inline;
-    margin: 0% 0% 0% 63%;
-}
-
-/*FOOTER END*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*MEDIA QUERIES*/
-
-@media (max-width: 768px){
-
-    /*BARRA NAV*/
-    .pentagrama{
-        width: 60px;
-    }
-    
-    /*PAGINA INICIO*/
-
-    .frase-ed{       
-        font-size: 130%;
-        padding: 40% 2% 0% 2%;
-    }
-
-    .ed-warren{
-        font-size: 120%;
-        padding: 2% 7% 3% 0%;
-    }
-
-    .info-inicio{
-        display: block;
-        margin: 2% 7% 0% 7%;
-        padding-bottom: 3%;
-        width: 90%;
-    }
-
-    .quienes-son{
-        margin: 4% 0% 0% 37%;
-        padding-top: 4%;
-    }
-
-    .info1{
-        text-align: center;
-        font-size: 112%;
-        margin: 4% 0% 0% 5%;
-        width: 90%;
-    }
-
-    .info{
-        text-align: center;
-        font-size: 112%;
-        margin: 5% 0px 0px 5%;
-        width: 90%;
-    }
-
-    .familia{
-        width: 60%;
-        margin: 5% 0% 0% 21%;
-    }
-
-    /*CIERRE*/
-
-
-
-
-
-
-
-
-
-
-    /*PAGINA BIOGRAFIA*/
-
-    .fondo-biografia{
-        height: 250px;
-    }
-
-    .biografia{
-        font-size: 350%;
-    }
-
-    .sobre-warrens{
-        display: block;
-    }
-
-    .bio1{
-        margin: 1% 0% 0% 2%;
-    }
-
-    .img-warrens-biografia{
-        padding: 6% 0% 0% 18%;
-        width: 80%;
-    }
-
-
-    /*MUSEO*/
-
-    .museo-titulo{
-        font-size: 170%;
-        padding-top: 8%;
-    }
-
-    .museo-info{
-        font-size: 109%;
-        padding: 0% 3% 0% 3%;
-    }
-
-    .ubicacion{
-        display: flex;
-    }
-
-    iframe{
-        height: 220px;
-        margin-left: 5%;
-    }
-    /*CIERRE*/
-
-
-
-
-
-
-
-
-
-    /*PAGINA CASOS*/
-    .fondo-casos{
-        height: 250px;
-    }
-
-    .casos{
-        font-size: 350%;
-    }
-
-
-    /*LA FAMILIA PERRON*/
-
-    .familia-perron{
-        width: 90%;
-        padding: 0% 0% 6% 5%;
-    }
-
-
-
-    .otros-casos{
-        font-size: 170%;
-        padding-top: 8%;
-    }
-
-    .investigaciones{
-        font-size: 110%;
-        padding: 1% 4% 0% 4%;
-    }  
-
-
-    /*JUICIO ASESINATO*/
-
-    .juicio-asesinato{
-        display: block;
-    }
-
-    .juicio-titulo{
-        font-size: 150%;
-        margin: 9% 0px 0px 27%;
-    }    
-
-    .juicio1{
-        text-align: center;
-        margin: 1% 0% 0% 10%;
-    }
-
-    .juicio2{
-        text-align: center;
-        margin: 4% 0% 0% 10%;
-    }   
-
-    .arne{
-        width: 70%;
-        padding: 4% 0% 0% 15%;
-    }
-
-    /*HOMBRE LOBO*/
-
-    .hombre-lobo{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-    .hombrelobo-titulo{
-        margin: 15% 0% 0% 40%;
-    }
-
-    .hombrelobo-info1{
-        text-align: center;
-        margin: 1% 0% 0% 10%;
-    }
-
-    .hombrelobo-info2{
-        text-align: center;
-    }
-
-    .hombrelobo-info3{
-        text-align: center;
-    }
-
-    .bill{
-        width: 60%;
-        padding: 5% 0% 0% 20%;
-    }
-
-
-
-    /*FAMILIA SMURL*/
-
-    .familia-smurl{
-        display: block;
-    }
-
-    .div-smurls{
-        width: 100%;
-    }
-
-    .smurl-titulo{
-        margin: 16% 0% 0% 45%;
-    }
-
-    .smurl-info1{
-        text-align: center;
-        margin: 1% 0% 0% 10%;
-        width: 90%;
-    }
-
-    .smurl-info2{
-        text-align: center;
-        margin: 3% 0% 0% 10%;
-        width: 90%;
-    }
-
-    .smurl-info3{
-        text-align: center;
-        margin: 3% 0% 0% 10%;
-        width: 90%;
-    }
-
-    .smurl-info4{
-        text-align: center;
-        margin: 3% 0% 0% 10%;
-        width: 90%;
-    }
-
-    .imagenes-familiasmurl{
-        display: flex;
-        width: 100%;
-    }
-
-    .los-smurls{
-        width: 45%;
-        padding: 5% 0% 0% 8%;
-    }
-
-    .casa-smurls{
-        width: 45%;
-        padding: 5% 0% 0% 4%;
-    }
-
-    /*FAMILIA SNEDEKER*/
-
-    .familia-snedeker{
-        display: flex;
-        flex-direction: column-reverse;
-        padding-bottom: 4%;
-    }
-
-    .snedekers-titulo{
-        margin: 15% 0% 0% 40%;
-    }
-
-    .snedekers-info1{
-        text-align: center;
-        margin: 1% 0% 0% 8%;
-        width: 85%;
-    }
-
-    .snedekers-info2{
-        text-align: center;
-        margin: 3% 0% 0% 8%;
-        width: 85%;
-    }
-
-    .los-snedekers{
-        width: 80%;
-        padding: 5% 0% 0% 10%;
-    }
-
-    /*CIERRE*/
-
-
-
-
-
-
-
-
-
-    /*PAGINA CONTACTO*/
-
-    .fondo-contacto{
-        height: 250px;
-    }
-
-    .contacto{
-        font-size: 350%;
-    }
-
-    .contactenos{
-        display: block;
-    }
-
-    .contacto-titulo{
-        padding: 6% 0% 0% 36%;
-    }
-
-    .ayuda{
-        text-align: center;
-        padding: 1% 0% 0% 10%;
-    }
-
-    .gmail{
-        width: 50%;
-        padding: 1% 0% 0% 26%;
-    }
-
-    .formulario{
-        padding: 0% 5% 3% 0%;
-        margin: 8% 0% 0% 17%;
-    }
-
-    .form{
-        padding: 8% 0% 0% 9%;
-    }
-
-    input{
-        width: 100%;
-        height: 40px;
-    }
-
-    .boton-enviar{
-        width: 17%;
-        margin: 4% 0% 0% 48%;
-    }
-
-    /*CIERRE*/
-
-
-
-
-    /*FOOTER START*/
-
-.google{
-    margin: 2% 3% 0% 3%;
-}
-
-footer p{
-    margin: 0% 0% 0% 50%;
-}
-
-/*FOOTER END*/
-}
-
-
-
-
-
-
-
-
-
-@media (max-width: 320px){
-
-    /*PAGINA INICIO*/
-
-    .pentagrama{
-        width: 50px;
-    }
-
-
-    /*PAGINA INICIO*/
-
-    .fondo-inicio{
-        height: 200px;
-    }
-    
-    .frase-ed{  
-        display: none;
-    }
-
-    .ed-warren{
-        display: none;
-    }
-
-    .titulo-inicio{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 160%;
-    }
-
-    .info-inicio{
-        margin: 2% 0% 0% 5%;
-        width: 90%;
-    }
-
-    .quienes-son{
-        font-size: 140%;
-        margin: 7% 0% 0% 26%;
-        padding-top: 4%;
-    }
-
-    .info1{
-        font-size: 105%;
-    }
-
-    .info{
-        font-size: 105%;
-    }
-
-    .familia{
-        width: 80%;
-        margin: 5% 0% 0% 10%;
-    }
-
-    /*CIERRE*/
-
-
-
-
-
-
-    /*PAGINA BIOGRAFIA*/
-
-.fondo-biografia{
-    height: 150px;
-}
-
-.biografia{
-    font-size: 220%;
-    padding: 30% 0% 0% 5%;
-}
-
-.eyl-biografia{
-    font-size: 170%;
-}
-
-.conmemoracion{
-    font-size: 105%;
-}
-
-.sobre-warrens{
-    display: block;
-}
-
-.sobre-ellos{
-    font-size: 160%;
-    padding: 5% 0% 0% 29%;
-}
-
-.bio1{
-    text-align: center;
-    font-size: 105%;
-    margin: 3% 0% 0% 2%;
-}
-
-.bio{
-    text-align: center;
-    font-size: 105%;
-    margin: 3% 0% 0% 2%;
-
-}
-
-.img-warrens-biografia{
-    padding: 3% 0% 0% 1%;
-    width: 100%;
-}
-
-.linea-temporal-titulo{
-    font-size: 170%;
-    padding: 10% 0% 0% 0%;
-}
-
-.linea-temporal{
-    display: block;
-}
-
-.calendario{
-    width: 20%;
-}
-
-/*SE CONOCEN*/
-
-.linea-temporal{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.div-se-conocen{
-    margin: 0% 10% 0% 10%;
-}
-
-.seconocen{
-    text-align: left;
-    font-size: 130%;
-    padding: 7% 0% 0% 6%;
-}
-
-.seconocen2{
-    text-align: left;
-    padding: 4% 7% 0% 7%;
-}
-
-.warrens1{
-    width: 90%;
-    padding: 0% 0% 9% 9%;
-}
-
-.calendario1944{
-    padding: 10% 0% 0% 45%;
-}
-
-.año1944{
-    padding: 1% 80% 0% 0%;
-}
-
-
-/*ED ES DESPLEGADO*/
-
-.linea-temporal2{
-    display: block;
-    
-}
-
-.calendario1945{
-    padding: 30% 0% 0% 45%;
-}
-
-.año1945{
-    padding: 1% 80% 0% 0%;
-}
-
-.div-ed-desplegado{
-    margin: 0% 10% 0% 10%;
-}
-
-.desplegado{
-    text-align: center;
-    font-size: 130%;
-    padding: 7% 0% 0% 0%;
-}
-
-
-.ed-en-barco{
-    width: 90%;
-    padding: 0px 0px 7% 9%;
-}
-
-
-/*SE CASAN LOS WARRENS*/
-
-.div-casamiento{
-    margin: 5% 10% 0% 10%;
-}
-
-/*NACE JUDY*/
-
-.div-familia-crece{
-    margin: 0% 10% 0% 10%;
-}
-
-.familiacrece{
-    text-align: left;
-    width: 80%;
-    font-size: 130%;
-    padding: 7% 0% 0% 7%;
-}
-
-.familiacrece2{
-    text-align: left;
-}
-
-.judy{
-    width: 80%;
-    padding: 0% 0% 7% 20%;
-}
-
-.calendario1951{
-    padding: 30% 0% 0% 45%;
-}
-
-.año1951{
-    padding: 1% 80% 0% 0%;
-}
-
-
-/*ED EN LA ESCUELA DE ARTE*/
-
-.div-escuela-arte{
-    margin: 5% 10% 0% 10%;
-}
-
-.escuelaarte{
-    text-align: left;
-    font-size: 130%;
-    padding: 7% 0% 0% 7%;
-}
-
-.escuelaarte2{
-    text-align: left;
-}
-
-
-
-/*ED Y LORRAINE CARRETERA*/
-
-.calendario1952{
-    padding: 30% 0% 0% 45%;
-}
-
-.año1952{
-    padding: 1% 80% 0% 0%;
-}
-
-.div-ed-carretera{
-    margin: 0% 10% 0% 10%;
-}
-
-
-/*SE CREA NESPR*/
-
-.div-nespr{
-    margin: 0% 10% 0% 10%;
-}
-
-/*MUSEO*/
-
-.museo-titulo{
-    font-size: 170%;
-}
-
-.museo-info{
-    font-size: 105%;
-}
-
-.ubicacion{
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-iframe{
-    width: 80%;
-    height: 40%;
-    padding: 3% 0% 3% 9%;
-}
-
-.museo-ubi{
-    width: 80%;
-    padding: 1% 0% 0% 20%;
-}
-
-/*CIERRE*/
-
-
-
-
-
-
-    /*FOOTER START*/
-
-    footer{
-        margin-top: 15%;
-    }
-
-    .google{
-        width: 10%;
-        margin: 2% 3% 0% 3%;
-    }
-
-    .youtube{
-        width: 10%;
-    }
-
-    footer p{
-        font-size: 80%;
-        margin: 0% 0% 0% 7%;
-    }
-
-    /*FOOTER END*/
-    
-
-}
+/*# sourceMappingURL=style.css.map */
