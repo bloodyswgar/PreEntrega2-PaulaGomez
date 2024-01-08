@@ -69,6 +69,15 @@ main .info-inicio .familia {
   margin: 5% 7% 0% 0%;
 }
 
+/*CIERRE*/
+/*PAGINA BIOGRAFIA*/
+main {
+  /*ED ES DESPLEGADO*/
+  /*NACE JUDY*/
+  /*ED EN LA ESCUELA DE ARTE*/
+  /*SE CREA NESPR*/
+  /*MUSEO*/
+}
 main .fondo-biografia {
   background-image: url(../assets/museo-warrens.jpg);
   background-repeat: none;
@@ -342,6 +351,17 @@ main .ubicacion .museo-ubi {
   padding: 3% 0% 0% 4%;
 }
 
+/*CIERRE*/
+/*PAGINA CASOS*/
+main {
+  /*ANNABELLE*/
+  /*LA FAMILIA PERRON*/
+  /*AMITYVILLE*/
+  /*JUICIO ASESINATO*/
+  /*HOMBRE LOBO*/
+  /*FAMILIA SMURL*/
+  /*FAMILIA SNEDEKER*/
+}
 main .fondo-casos {
   background-image: url(../assets/archivos.jpeg);
   background-repeat: none;
@@ -620,6 +640,10 @@ main .familia-snedeker div .snedekers-info2 {
   color: rgb(87, 87, 87);
 }
 
+/*PAGINA PELICULAS*/
+main {
+  /*PELICULAS*/
+}
 main .fondo-peliculas {
   background-image: url(../assets/peliculas.jpeg);
   background-repeat: none;
@@ -769,6 +793,896 @@ body footer p {
   color: rgb(107, 107, 107);
   display: inline;
   margin: 0% 0% 0% 63%;
+}
+
+/*MEDIA QUERIES TABLET*/
+@media (max-width: 768px) {
+  /*INDEX*/
+  main .fondo-inicio .frase-ed {
+    font-size: 130%;
+    padding: 40% 2% 0% 2%;
+  }
+  main .fondo-inicio .ed-warren {
+    font-size: 120%;
+    padding: 2% 7% 3% 0%;
+  }
+  main .info-inicio {
+    display: block;
+    margin: 2% 7% 0% 7%;
+    padding-bottom: 3%;
+    width: 90%;
+  }
+  main .info-inicio div .quienes-son {
+    margin: 4% 0% 0% 37%;
+    padding-top: 4%;
+  }
+  main .info-inicio div .info1 {
+    text-align: center;
+    font-size: 112%;
+    margin: 4% 0% 0% 5%;
+    width: 90%;
+  }
+  main .info-inicio div .info {
+    text-align: center;
+    font-size: 112%;
+    margin: 5% 0px 0px 5%;
+    width: 90%;
+  }
+  main .info-inicio .familia {
+    width: 60%;
+    margin: 5% 0% 0% 21%;
+  }
+  /*BIOGRAFIA*/
+  main {
+    /*MUSEO*/
+  }
+  main .fondo-biografia {
+    height: 250px;
+  }
+  main .fondo-biografia .biografia {
+    font-size: 350%;
+  }
+  main .sobre-warrens {
+    display: block;
+  }
+  main .sobre-warrens div .bio1 {
+    margin: 1% 0% 0% 2%;
+  }
+  main .sobre-warrens .img-warrens-biografia {
+    padding: 6% 0% 0% 18%;
+    width: 80%;
+  }
+  main section .museo-titulo {
+    font-size: 170%;
+    padding-top: 8%;
+  }
+  main section .museo-info {
+    font-size: 109%;
+    padding: 0% 3% 0% 3%;
+  }
+  main .ubicacion {
+    display: flex;
+  }
+  main .ubicacion iframe {
+    height: 220px;
+    margin-left: 5%;
+  }
+  /*CASOS*/
+  main {
+    /*LA FAMILIA PERRON*/
+    /*JUICIO ASESINATO*/
+    /*HOMBRE LOBO*/
+    /*FAMILIA SMURL*/
+    /*FAMILIA SNEDEKER*/
+  }
+  main .fondo-casos {
+    height: 250px;
+  }
+  main .fondo-casos .casos {
+    font-size: 350%;
+  }
+  main section .calendario1971 {
+    padding: 29% 0% 0% 53%;
+  }
+  main section .calendario1971 .año1971 {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-size: 95%;
+  }
+  main section .div-perron .familia-perron {
+    width: 90%;
+    padding: 0% 0% 6% 5%;
+  }
+  main section .otros-casos {
+    font-size: 170%;
+    padding-top: 8%;
+  }
+  main section .investigaciones {
+    font-size: 110%;
+    padding: 1% 4% 0% 4%;
+  }
+  main span a {
+    color: rgb(73, 73, 158) violet;
+  }
+  main .juicio-asesinato {
+    display: block;
+  }
+  main .juicio-asesinato div .juicio-titulo {
+    font-size: 150%;
+    margin: 9% 0px 0px 27%;
+  }
+  main .juicio-asesinato div .juicio1 {
+    text-align: center;
+    margin: 1% 0% 0% 10%;
+  }
+  main .juicio-asesinato div .juicio2 {
+    text-align: center;
+    margin: 4% 0% 0% 10%;
+  }
+  main .juicio-asesinato .arne {
+    width: 70%;
+    padding: 4% 0% 0% 15%;
+  }
+  main .hombre-lobo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .hombre-lobo div .hombrelobo-titulo {
+    margin: 15% 0% 0% 40%;
+  }
+  main .hombre-lobo div .hombrelobo-info1 {
+    text-align: center;
+    margin: 1% 0% 0% 10%;
+  }
+  main .hombre-lobo div .hombrelobo-info2 {
+    text-align: center;
+  }
+  main .hombre-lobo div .hombrelobo-info3 {
+    text-align: center;
+  }
+  main .hombre-lobo .bill {
+    width: 60%;
+    padding: 5% 0% 0% 20%;
+  }
+  main .familia-smurl {
+    display: block;
+  }
+  main .familia-smurl .div-smurls {
+    width: 100%;
+  }
+  main .familia-smurl .div-smurls .smurl-titulo {
+    margin: 16% 0% 0% 45%;
+  }
+  main .familia-smurl .div-smurls .smurl-info1 {
+    text-align: center;
+    margin: 1% 0% 0% 10%;
+    width: 90%;
+  }
+  main .familia-smurl .div-smurls .smurl-info2 {
+    text-align: center;
+    margin: 3% 0% 0% 10%;
+    width: 90%;
+  }
+  main .familia-smurl .div-smurls .smurl-info3 {
+    text-align: center;
+    margin: 3% 0% 0% 10%;
+    width: 90%;
+  }
+  main .familia-smurl .div-smurls .smurl-info4 {
+    text-align: center;
+    margin: 3% 0% 0% 10%;
+    width: 90%;
+  }
+  main .familia-smurl .imagenes-familiasmurl {
+    display: flex;
+    width: 100%;
+  }
+  main .familia-smurl .imagenes-familiasmurl .los-smurls {
+    width: 45%;
+    padding: 5% 0% 0% 8%;
+  }
+  main .familia-smurl .imagenes-familiasmurl .casa-smurls {
+    width: 45%;
+    padding: 5% 0% 0% 4%;
+  }
+  main .familia-snedeker {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 4%;
+  }
+  main .familia-snedeker .los-snedekers {
+    width: 80%;
+    padding: 5% 0% 0% 10%;
+  }
+  main .familia-snedeker div .snedekers-titulo {
+    margin: 15% 0% 0% 40%;
+  }
+  main .familia-snedeker div .snedekers-info1 {
+    text-align: center;
+    margin: 1% 0% 0% 8%;
+    width: 85%;
+  }
+  main .familia-snedeker div .snedekers-info2 {
+    text-align: center;
+    margin: 3% 0% 0% 8%;
+    width: 85%;
+  }
+  /*PAGINA CONTACTO*/
+  main .fondo-contacto {
+    height: 250px;
+  }
+  main .fondo-contacto .contacto {
+    font-size: 350%;
+  }
+  main .contactenos {
+    display: block;
+  }
+  main .contactenos div .contacto-titulo {
+    padding: 6% 0% 0% 36%;
+  }
+  main .contactenos div .ayuda {
+    text-align: center;
+    padding: 1% 0% 0% 10%;
+  }
+  main .contactenos div .gmail {
+    width: 50%;
+    padding: 1% 0% 0% 26%;
+  }
+  main .contactenos .formulario {
+    padding: 0% 5% 3% 0%;
+    margin: 8% 0% 0% 17%;
+  }
+  main .contactenos .formulario .form {
+    padding: 8% 0% 0% 9%;
+  }
+  main .contactenos .formulario .form div input {
+    width: 100%;
+    height: 40px;
+  }
+  main .contactenos .formulario .boton-enviar {
+    width: 17%;
+    margin: 4% 0% 0% 48%;
+  }
+  /*FOOTER*/
+  body footer .google {
+    margin: 2% 3% 0% 3%;
+  }
+  body footer p {
+    margin: 0% 0% 0% 50%;
+  }
+}
+/*MEDIA QUERIES MOBILE*/
+@media (max-width: 320px) {
+  /*PAGINA INICIO*/
+  header nav div .pentagrama {
+    width: 50px;
+  }
+  main .fondo-inicio {
+    height: 200px;
+  }
+  main .fondo-inicio .frase-ed {
+    display: none;
+  }
+  main .fondo-inicio .ed-warren {
+    display: none;
+  }
+  main section .titulo-inicio {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 160%;
+  }
+  main .info-inicio {
+    margin: 2% 0% 0% 5%;
+    width: 90%;
+  }
+  main .info-inicio div .quienes-son {
+    font-size: 140%;
+    margin: 7% 0% 0% 26%;
+    padding-top: 4%;
+  }
+  main .info-inicio div .info1 {
+    font-size: 105%;
+  }
+  main .info-inicio div .info {
+    font-size: 105%;
+  }
+  main .info-inicio .familia {
+    width: 80%;
+    margin: 5% 0% 0% 10%;
+  }
+  /*CIERRE*/
+  /*PAGINA BIOGRAFIA*/
+  main {
+    /*ED ES DESPLEGADO*/
+    /*NACE JUDY*/
+    /*ED EN LA ESCUELA DE ARTE*/
+    /*SE CREA NESPR*/
+    /*MUSEO*/
+  }
+  main .fondo-biografia {
+    height: 150px;
+  }
+  main .fondo-biografia .biografia {
+    font-size: 220%;
+    padding: 30% 0% 0% 5%;
+  }
+  main section .eyl-biografia {
+    font-size: 170%;
+  }
+  main section .conmemoracion {
+    font-size: 105%;
+  }
+  main .sobre-warrens {
+    display: block;
+  }
+  main .sobre-warrens div .sobre-ellos {
+    font-size: 160%;
+    padding: 5% 0% 0% 29%;
+  }
+  main .sobre-warrens div .bio1 {
+    text-align: center;
+    font-size: 105%;
+    margin: 3% 0% 0% 2%;
+  }
+  main .sobre-warrens div .bio {
+    text-align: center;
+    font-size: 105%;
+    margin: 3% 0% 0% 2%;
+  }
+  main .sobre-warrens .img-warrens-biografia {
+    padding: 3% 0% 0% 1%;
+    width: 100%;
+  }
+  main .linea-temporal-titulo {
+    font-size: 170%;
+    padding: 10% 0% 0% 0%;
+  }
+  main .calendario {
+    width: 20%;
+  }
+  main .linea-temporal {
+    display: block;
+  }
+  main .linea-temporal .div-se-conocen {
+    margin: 0% 10% 0% 10%;
+  }
+  main .linea-temporal .div-se-conocen .seconocen {
+    text-align: left;
+    font-size: 130%;
+    padding: 7% 0% 0% 6%;
+  }
+  main .linea-temporal .div-se-conocen .seconocen2 {
+    text-align: left;
+    padding: 4% 7% 0% 7%;
+  }
+  main .linea-temporal .div-se-conocen .warrens1 {
+    width: 90%;
+    padding: 0% 0% 9% 9%;
+  }
+  main .linea-temporal .calendario1944 {
+    padding: 10% 0% 0% 45%;
+  }
+  main .linea-temporal .calendario1944 .año1944 {
+    padding: 1% 80% 0% 0%;
+  }
+  main section .calendario1945 {
+    padding: 30% 0% 0% 45%;
+  }
+  main section .calendario1945 .año1945 {
+    padding: 1% 80% 0% 0%;
+  }
+  main section .div-ed-desplegado {
+    margin: 0% 10% 0% 10%;
+  }
+  main section .div-ed-desplegado .desplegado {
+    text-align: center;
+    font-size: 130%;
+    padding: 7% 0% 0% 0%;
+  }
+  main section .div-ed-desplegado .ed-en-barco {
+    width: 90%;
+    padding: 0px 0px 7% 9%;
+  }
+  main section .div-casamiento {
+    margin: 5% 10% 0% 10%;
+  }
+  main section .div-familia-crece {
+    margin: 0% 10% 0% 10%;
+  }
+  main section .div-familia-crece .familiacrece {
+    text-align: left;
+    width: 80%;
+    font-size: 130%;
+    padding: 7% 0% 0% 7%;
+  }
+  main section .div-familia-crece .familiacrece2 {
+    text-align: left;
+  }
+  main section .div-familia-crece .judy {
+    width: 80%;
+    padding: 0% 0% 7% 20%;
+  }
+  main section .calendario1951 {
+    padding: 30% 0% 0% 45%;
+  }
+  main section .calendario1951 .año1951 {
+    padding: 1% 80% 0% 0%;
+  }
+  main section .div-escuela-arte {
+    margin: 5% 10% 0% 10%;
+  }
+  main section .div-escuela-arte .escuelaarte {
+    text-align: left;
+    font-size: 130%;
+    padding: 7% 0% 0% 7%;
+  }
+  main section .div-escuela-arte .escuelaarte2 {
+    text-align: left;
+  }
+  main section .calendario1952 {
+    padding: 30% 0% 0% 45%;
+  }
+  main section .calendario1952 .año1952 {
+    padding: 1% 80% 0% 0%;
+  }
+  main section .div-ed-carretera {
+    margin: 0% 10% 0% 10%;
+  }
+  main section .div-nespr {
+    margin: 0% 10% 0% 10%;
+  }
+  main section .museo-titulo {
+    font-size: 170%;
+  }
+  main section .museo-info {
+    font-size: 105%;
+  }
+  main .ubicacion {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .ubicacion iframe {
+    width: 80%;
+    height: 40%;
+    padding: 3% 0% 3% 9%;
+  }
+  main .ubicacion .museo-ubi {
+    width: 80%;
+    padding: 1% 0% 0% 20%;
+  }
+  /*CIERRE*/
+  /*PAGINA CASOS*/
+  main {
+    /*ANNABELLE*/
+    /*LA FAMILIA PERRON*/
+    /*AMITYVILLE*/
+    /*JUICIO ASESINATO*/
+    /*HOMBRE LOBO*/
+    /*FAMILIA SMURL*/
+    /*FAMILIA SNEDEKER*/
+  }
+  main .fondo-casos {
+    height: 250px;
+  }
+  main .fondo-casos .casos {
+    font-size: 350%;
+  }
+  main section .archivos {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 190%;
+    padding: 3% 0% 0% 0%;
+  }
+  main section .sus-carreras {
+    font-size: 115%;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 0% 7% 0% 7%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  main .top3-peliculas {
+    display: flex;
+  }
+  main .top3-peliculas .div-annabelle {
+    margin: 5% 2% 0% 8%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 2%;
+  }
+  main .top3-peliculas .div-annabelle .annabelle-titulo {
+    color: rgb(94, 94, 94);
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 150%;
+    padding: 6% 6% 0% 0%;
+  }
+  main .top3-peliculas .div-annabelle .annabelle-info {
+    color: rgb(48, 48, 48);
+    text-align: right;
+    font-size: 105%;
+    padding: 5% 6% 6% 6%;
+  }
+  main .top3-peliculas .div-annabelle .muñeca-annabelle {
+    width: 85%;
+    padding: 0% 0% 6% 7%;
+  }
+  main .top3-peliculas .calendario1968 {
+    padding: 26% 53% 0% 0%;
+  }
+  main .top3-peliculas .calendario1968 .año1968 {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-size: 95%;
+  }
+  main section .calendario1971 {
+    padding: 29% 0% 0% 53%;
+  }
+  main section .calendario1971 .año1971 {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-size: 95%;
+  }
+  main section .div-perron {
+    margin: 5% 8% 0% 2%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 2%;
+  }
+  main section .div-perron .perron-titulo {
+    color: rgb(94, 94, 94);
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 150%;
+    padding: 6% 0% 0% 6%;
+  }
+  main section .div-perron .perron-info {
+    color: rgb(48, 48, 48);
+    text-align: left;
+    font-size: 105%;
+    padding: 5% 6% 6% 6%;
+  }
+  main section .div-perron .familia-perron {
+    width: 75%;
+    padding: 0% 0% 6% 7%;
+  }
+  main section .div-amityville {
+    margin: 5% 2% 0% 8%;
+    background-color: rgb(236, 236, 236);
+    border-radius: 2%;
+  }
+  main section .div-amityville .amityville-titulo {
+    color: rgb(94, 94, 94);
+    text-align: right;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 150%;
+    padding: 6% 6% 0% 0%;
+  }
+  main section .div-amityville .amityville-info {
+    color: rgb(48, 48, 48);
+    text-align: right;
+    font-size: 105%;
+    padding: 5% 6% 6% 6%;
+  }
+  main section .div-amityville .casa-amityville {
+    width: 85%;
+    padding: 0% 0% 5% 8%;
+  }
+  main section .calendario1974 {
+    padding: 29% 53% 0% 0%;
+  }
+  main section .calendario1974 .año1974 {
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-size: 95%;
+  }
+  main section .otros-casos {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 190%;
+    padding: 4% 0% 0% 0%;
+  }
+  main section .investigaciones {
+    font-size: 115%;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 0% 4% 0% 4%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  main span a {
+    color: rgb(73, 73, 158) violet;
+  }
+  main .juicio-asesinato {
+    display: flex;
+  }
+  main .juicio-asesinato div .juicio-titulo {
+    color: rgb(44, 44, 44);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 155%;
+    margin: 7% 0px 0px 21%;
+  }
+  main .juicio-asesinato div .juicio1 {
+    text-align: left;
+    font-size: 115%;
+    margin: 3% 0% 0% 13%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .juicio-asesinato div .juicio2 {
+    text-align: left;
+    font-size: 115%;
+    margin: 6% 0% 0% 13%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .juicio-asesinato .arne {
+    width: 70%;
+    padding: 4% 5% 0% 0%;
+  }
+  main .hombre-lobo {
+    display: flex;
+  }
+  main .hombre-lobo div .hombrelobo-titulo {
+    color: rgb(36, 36, 36);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 155%;
+    margin: 13% 0% 0% 44%;
+  }
+  main .hombre-lobo div .hombrelobo-info1 {
+    text-align: right;
+    font-size: 115%;
+    margin: 2% 0% 0% 10%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .hombre-lobo div .hombrelobo-info2 {
+    text-align: right;
+    font-size: 115%;
+    margin: 3% 0% 0% 10%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .hombre-lobo div .hombrelobo-info3 {
+    text-align: right;
+    font-size: 115%;
+    margin: 3% 0% 0% 10%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .hombre-lobo .bill {
+    width: 190%;
+    padding: 9% 0% 0% 7%;
+  }
+  main .familia-smurl {
+    display: flex;
+    padding-right: 9%;
+  }
+  main .familia-smurl .div-smurls {
+    width: 60%;
+  }
+  main .familia-smurl .div-smurls .smurl-titulo {
+    color: rgb(36, 36, 36);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 155%;
+    margin: 16% 0% 0% 40%;
+  }
+  main .familia-smurl .div-smurls .smurl-info1 {
+    text-align: left;
+    font-size: 115%;
+    margin: 3% 0% 0% 11%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .familia-smurl .div-smurls .smurl-info2 {
+    text-align: left;
+    font-size: 115%;
+    margin: 5% 0% 0% 11%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .familia-smurl .div-smurls .smurl-info3 {
+    text-align: left;
+    font-size: 115%;
+    margin: 5% 0% 0% 11%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .familia-smurl .div-smurls .smurl-info4 {
+    text-align: left;
+    font-size: 115%;
+    margin: 5% 0% 0% 11%;
+    width: 80%;
+    color: rgb(87, 87, 87);
+  }
+  main .familia-smurl .imagenes-familiasmurl {
+    width: 40%;
+  }
+  main .familia-smurl .imagenes-familiasmurl .los-smurls {
+    width: 90%;
+    padding: 30% 0% 0% 9%;
+  }
+  main .familia-smurl .imagenes-familiasmurl .casa-smurls {
+    width: 100%;
+    padding: 10% 0% 0% 4%;
+  }
+  main .familia-snedeker {
+    display: flex;
+    padding-bottom: 4%;
+  }
+  main .familia-snedeker .los-snedekers {
+    width: 190%;
+    padding: 10% 0% 0% 6%;
+  }
+  main .familia-snedeker div .snedekers-titulo {
+    color: rgb(36, 36, 36);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 155%;
+    margin: 15% 0% 0% 45%;
+  }
+  main .familia-snedeker div .snedekers-info1 {
+    text-align: right;
+    font-size: 115%;
+    margin: 4% 0% 0% 9%;
+    width: 81%;
+    color: rgb(87, 87, 87);
+  }
+  main .familia-snedeker div .snedekers-info2 {
+    text-align: right;
+    font-size: 115%;
+    margin: 3% 0% 0% 9%;
+    width: 81%;
+    color: rgb(87, 87, 87);
+  }
+  /*PAGINA PELICULAS*/
+  main {
+    /*PELICULAS*/
+  }
+  main .fondo-peliculas {
+    background-image: url(../assets/peliculas.jpeg);
+    background-repeat: none;
+    background-size: cover;
+    height: 400px;
+  }
+  main .fondo-peliculas .peliculas {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 440%;
+    padding: 20% 0% 0% 5%;
+  }
+  main section .saga {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    font-size: 185%;
+    padding: 50px 0px 0px 0px;
+  }
+  main section .sagainfo1 {
+    font-size: 113%;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 1% 5% 0% 5%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  main section .sagainfo2 {
+    font-size: 113%;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    padding: 0% 5% 0% 5%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  main .SagaPeliculas {
+    display: flex;
+    padding-top: 8%;
+  }
+  main .SagaPeliculas .img-peliculas {
+    width: 30%;
+    padding: 0% 3% 0% 5%;
+  }
+  main .SagaPeliculas div .titulo-peliculas {
+    font-size: 180%;
+    color: rgb(36, 36, 36);
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  main .SagaPeliculas div .info-peliculas {
+    font-size: 112%;
+    padding: 1% 8% 0% 0%;
+    color: rgb(48, 47, 47);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  main .SagaPeliculas div .fecha-peliculas {
+    font-size: 112%;
+    padding-top: 2%;
+    color: rgb(48, 47, 47);
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  main span {
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+  }
+  /*PAGINA CONTACTO*/
+  main .fondo-contacto {
+    background-image: url(../assets/museo-warrens.jpg);
+    background-repeat: none;
+    background-size: cover;
+    height: 400px;
+  }
+  main .fondo-contacto .contacto {
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 440%;
+    padding: 20% 0% 0% 5%;
+  }
+  main .contactenos {
+    display: flex;
+  }
+  main .contactenos div .contacto-titulo {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: rgb(32, 32, 32);
+    font-size: 180%;
+    padding: 6% 0% 0% 33%;
+  }
+  main .contactenos div .ayuda {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 115%;
+    color: rgb(49, 49, 49);
+    width: 80%;
+    padding: 1% 0% 0% 8%;
+  }
+  main .contactenos div .gmail {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 115%;
+    color: rgb(139, 21, 21);
+    width: 80%;
+    padding: 1% 0% 0% 8%;
+  }
+  main .contactenos .formulario {
+    background-color: rgb(253, 253, 226);
+    width: 60%;
+    padding: 0% 5% 3% 0%;
+    margin: 4% 7% 0% 0%;
+    border-radius: 2%;
+  }
+  main .contactenos .formulario .form {
+    padding: 8% 0% 0% 15%;
+  }
+  main .contactenos .formulario .form div .label1 {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 120%;
+    padding: 0% 0% 1% 0%;
+  }
+  main .contactenos .formulario .form div .label {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 120%;
+    padding: 6% 0% 1% 0%;
+  }
+  main .contactenos .formulario .form div .textarea {
+    width: 100%;
+  }
+  main .contactenos .formulario .form div input {
+    width: 100%;
+    height: 40px;
+  }
+  main .contactenos .formulario .boton-enviar {
+    width: 17%;
+    margin: 4% 0% 0% 50%;
+  }
+  /*FOOTER START*/
+  body footer {
+    width: 100%;
+    padding-bottom: 1%;
+    display: inline-block;
+  }
+  body footer .google {
+    margin: 2% 3% 0% 5%;
+  }
+  body footer .youtube {
+    margin: 2% 2% 0% 0%;
+  }
+  body footer p {
+    color: rgb(107, 107, 107);
+    display: inline;
+    margin: 0% 0% 0% 63%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
