@@ -1789,10 +1789,11 @@ main{
 
 main{
     .fondo-casos{
-        height: 250px;
+        height: 150px;
 
         .casos{
-            font-size: 350%;
+            font-size: 220%;
+            padding: 30% 0% 0% 5%;
         }
     }
 
@@ -1818,40 +1819,22 @@ main{
 
     .top3-peliculas{
         display: flex;
+        flex-direction: column-reverse;
 
         .div-annabelle{
-            margin: 5% 2% 0% 8%;
-            background-color: $color-fondo;
-            border-radius: 2%;
-
-            .annabelle-titulo{
-                color: rgb(94, 94, 94);
-                text-align: right;
-                font-family: $font-title;
-                font-size: 150%;
-                padding: 6% 6% 0% 0%;
-            }
-            
-            .annabelle-info{
-                color: rgb(48, 48, 48);
-                text-align: right;
-                font-size: 105%;
-                padding: 5% 6% 6% 6%;
-            }
+            margin-right: 8%;
             
             .muñeca-annabelle{
-                width: 85%;
-                padding: 0% 0% 6% 7%;
+                width: 90%;
+                padding: 0% 0% 6% 9%;
             }
         }
 
         .calendario1968{
-            padding: 26% 53% 0% 0%;
+            padding: 26% 8% 0% 45%;
 
             .año1968{
-                color: rgb(65, 65, 65);
-                @include parrafo-centro(text-align);
-                font-size: 95%;
+                margin: 0% 100% 0% 0%;
             }
         }
     }
@@ -1860,38 +1843,19 @@ main{
 
     section{
         .calendario1971{
-            padding: 29% 0% 0% 53%;
+            padding: 26% 8% 0% 45%;
 
             .año1971{
-                color: rgb(65, 65, 65);
-                @include parrafo-centro(text-align);
-                font-size: 95%;
+                margin: 0% 100% 0% 0%;
             }
         }
 
         .div-perron{
-            margin: 5% 8% 0% 2%;
-            background-color: $color-fondo;
-            border-radius: 2%;
+            margin: 5% 8% 0% 8%;
 
-            .perron-titulo{
-                color: rgb(94, 94, 94);
-                text-align: left;
-                font-family: $font-title;
-                font-size: 150%;
-                padding: 6% 0% 0% 6%;
-            }
-            
-            .perron-info{
-                color: rgb(48, 48, 48);
-                text-align: left;
-                font-size: 105%;
-                padding: 5% 6% 6% 6%;
-            }
-            
             .familia-perron{
-                width: 75%;
-                padding: 0% 0% 6% 7%;
+                width: 90%;
+                padding: 0% 0% 6% 9%;
             }
         }
     }
@@ -1901,36 +1865,20 @@ main{
     /*AMITYVILLE*/
 
     section{
-        .div-amityville{
-            margin: 5% 2% 0% 8%;
-            background-color: $color-fondo;
-            border-radius: 2%;
 
-            .amityville-titulo{
-                color: rgb(94, 94, 94);
-                text-align: right;
-                font-family: $font-title;
-                font-size: 150%;
-                padding: 6% 6% 0% 0%;
-            }
-            
-            .amityville-info{
-                color: rgb(48, 48, 48);
-                text-align: right;
-                font-size: 105%;
-                padding: 5% 6% 6% 6%;
-            }
-            
+        .div-amityville{
+            margin-right: 8%;
+
             .casa-amityville{
-                width: 85%;
-                padding: 0% 0% 5% 8%;
+                width: 90%;
             }
         }
 
         .calendario1974{
-            padding: 29% 53% 0% 0%;
+            padding: 26% 8% 0% 45%;
 
             .año1974{
+                margin: 0% 100% 0% 0%;
                 color: rgb(65, 65, 65);
                 @include parrafo-centro(text-align);
                 font-size: 95%;
@@ -1942,11 +1890,7 @@ main{
 
     section{
         .otros-casos{
-            font-family: $font-title;
-            color: rgb(15, 15, 15);
-            @include parrafo-centro(text-align);
-            font-size: 190%;
-            padding: 4% 0% 0% 0%;
+            padding: 30% 0% 0% 0%;
         }
 
         .investigaciones{
@@ -1967,35 +1911,34 @@ main{
 
     .juicio-asesinato{
         display: flex;
+        flex-direction: column;
 
         div{
             .juicio-titulo{
-                color: rgb(44, 44, 44);
-                font-family: $font-title;
-                font-size: 155%;
-                margin: 7% 0px 0px 21%;
+                text-align: center;
+                margin: 7% 0px 0px 0%;
             }
             
             .juicio1{
-                text-align: left;
+                text-align: center;
                 font-size: 115%;
-                margin: 3% 0% 0% 13%;
+                margin: 3% 0% 0% 10%;
                 width: 80%;
                 color: $color-text;
             }
             
             .juicio2{
-                text-align: left;
+                text-align: center;
                 font-size: 115%;
-                margin: 6% 0% 0% 13%;
+                margin: 6% 0% 0% 10%;
                 width: 80%;
                 color: $color-text;
             }
         }
 
         .arne{
-            width: 70%;
-            padding: 4% 5% 0% 0%;
+            width: 85%;
+            padding: 4% 0% 0% 15%;
         }
     }
 
@@ -2007,40 +1950,28 @@ main{
 
         div{
             .hombrelobo-titulo{
-                color: rgb(36, 36, 36);
-                font-family: $font-title;
-                font-size: 155%;
-                margin: 13% 0% 0% 44%;
+                margin: 30% 0% 0% 27%;
             }
             
             .hombrelobo-info1{
-                text-align: right;
-                font-size: 115%;
+                text-align: center;
                 margin: 2% 0% 0% 10%;
-                width: 80%;
-                color: $color-text;
             }
             
             .hombrelobo-info2{
-                text-align: right;
-                font-size: 115%;
+                text-align: center;
                 margin: 3% 0% 0% 10%;;
-                width: 80%;
-                color: $color-text;
             }
             
             .hombrelobo-info3{
-                text-align: right;
-                font-size: 115%;
+                text-align: center;
                 margin: 3% 0% 0% 10%;
-                width: 80%;
-                color: $color-text;
             }
         }
 
         .bill{
-            width: 190%;
-            padding: 9% 0% 0% 7%;
+            width: 90%;
+            padding: 9% 0% 0% 10%;
         }
     }
 
@@ -2050,62 +1981,48 @@ main{
 
     .familia-smurl{
         display: flex;
-        padding-right: 9%;
+        flex-direction: column;
 
         .div-smurls{
-            width: 60%;
+            width: 100%;
 
             .smurl-titulo{
-                color: rgb(36, 36, 36);
-                font-family: $font-title;
-                font-size: 155%;
-                margin: 16% 0% 0% 40%;
+                margin: 30% 0% 0% 30%;
             }
             
             .smurl-info1{
-                text-align: left;
-                font-size: 115%;
-                margin: 3% 0% 0% 11%;
-                width: 80%;
-                color: $color-text;
+                text-align: center;
+                margin: 3% 0% 0% 9%;
             }
             
             .smurl-info2{
-                text-align: left;
-                font-size: 115%;
-                margin: 5% 0% 0% 11%;
-                width: 80%;
-                color: $color-text;
+                text-align: center;
+                margin: 5% 0% 0% 9%;
             }
             
             .smurl-info3{
-                text-align: left;
-                font-size: 115%;
-                margin: 5% 0% 0% 11%;
-                width: 80%;
-                color: $color-text;
+                text-align: center;
+                margin: 5% 0% 0% 9%;
             }
             
             .smurl-info4{
-                text-align: left;
-                font-size: 115%;
-                margin: 5% 0% 0% 11%;
-                width: 80%;
-                color: $color-text;
+                text-align: center;
+                margin: 5% 0% 0% 9%;
             }
         }
 
         .imagenes-familiasmurl{
-            width: 40%;
+            display: flex;
+            flex-direction: column;
 
             .los-smurls{
                 width: 90%;
-                padding: 30% 0% 0% 9%;
+                padding: 10% 0% 0% 20%;
             }
             
             .casa-smurls{
                 width: 100%;
-                padding: 10% 0% 0% 4%;
+                padding: 10% 0% 0% 10%;
             }
         }
     }
@@ -2115,36 +2032,25 @@ main{
     /*FAMILIA SNEDEKER*/
 
     .familia-snedeker{
-        display: flex;
-        padding-bottom: 4%;
 
         .los-snedekers{
-            width: 190%;
-            padding: 10% 0% 0% 6%;
+            width: 90%;
+            padding: 10% 0% 0% 10%;
         }
 
         div{
             .snedekers-titulo{
-                color: rgb(36, 36, 36);
-                font-family: $font-title;
-                font-size: 155%;
-                margin: 15% 0% 0% 45%;
+                margin: 30% 0% 0% 22%;
             }
             
             .snedekers-info1{
-                text-align: right;
-                font-size: 115%;
-                margin: 4% 0% 0% 9%;
-                width: 81%;
-                color: $color-text;
+                text-align: center;
+                margin: 4% 0% 0% 7%;
             }
             
             .snedekers-info2{
-                text-align: right;
-                font-size: 115%;
-                margin: 3% 0% 0% 9%;
-                width: 81%;
-                color: $color-text;
+                text-align: center;
+                margin: 3% 0% 0% 7%;
             }
         }
     }
@@ -2156,16 +2062,11 @@ main{
 
 main{
     .fondo-peliculas{
-        background-image: url(../assets/peliculas.jpeg);
-        background-repeat: none;
-        background-size: cover;
-        height: 400px;
+        height: 150px;
 
         .peliculas{
-            color: white;
-            font-family: 'Playfair Display', serif;
-            font-size: 440%;
-            padding: 20% 0% 0% 5%;
+            font-size: 220%;
+            padding: 30% 0% 0% 5%;
         }
         
     }
@@ -2200,32 +2101,31 @@ main{
 
     .SagaPeliculas{
         display: flex;
+        flex-direction: column-reverse;
         padding-top: 8%;
 
         .img-peliculas{
-            width: 30%;
-            padding: 0% 3% 0% 5%;
+            width: 80%;
+            padding: 0% 3% 0% 25%;
         }
 
         div{
             .titulo-peliculas{
-                font-size: 180%;
-                color: rgb(36, 36, 36);
-                font-family: $font-title;
+                margin: 15% 0% 0% 0%;
+                font-size: 170%;
+                text-align: center;
             }
             
             .info-peliculas{
-                font-size: 112%;
-                padding: 1% 8% 0% 0%;
-                color: rgb(48, 47, 47);
-                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 105%;
+                text-align: center;
+                padding: 1% 6% 0% 5%;
             }
             
             .fecha-peliculas{
-                font-size: 112%;
-                padding-top: 2%;
-                color: rgb(48, 47, 47);
-                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-size: 105%;
+                padding: 2% 0% 0% 0%;
+                text-align: center;
             }
         }
     }
@@ -2243,56 +2143,42 @@ main{
 
 main{
     .fondo-contacto{
-        background-image: url(../assets/museo-warrens.jpg);
-        background-repeat: none;
-        background-size: cover;
-        height: 400px;
+        height: 150px;
 
         .contacto{
-            color: white;
-            font-family: 'Playfair Display', serif;
-            font-size: 440%;
-            padding: 20% 0% 0% 5%;
+            font-size: 220%;
+            padding: 30% 0% 0% 5%;
         }
     }
 
     .contactenos{
-        display: flex;
 
         div{
             .contacto-titulo{
-                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                color: rgb(32, 32, 32);
-                font-size: 180%;
-                padding: 6% 0% 0% 33%;
+                text-align: center;
+                padding: 6% 0% 0% 1%;
             }
             
             .ayuda{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 115%;
-                color: rgb(49, 49, 49);
-                width: 80%;
-                padding: 1% 0% 0% 8%;
+                padding: 0% 5% 0% 5%;
+                width: 100%;
             }
             
             .gmail{
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                font-size: 115%;
-                color: rgb(139, 21, 21);
-                width: 80%;
-                padding: 1% 0% 0% 8%;
+                text-align: center;
+                width: 100%;
+                padding: 1% 0% 0% 0%;
             }
         }
 
         .formulario{
-            background-color: rgb(253, 253, 226);
-            width: 60%;
+            width: 90%;
             padding: 0% 5% 3% 0%;
-            margin: 4% 7% 0% 0%;
-            border-radius: 2%;
+            margin: 4% 5% 0% 5%;
+
 
             .form{
-                padding: 8% 0% 0% 15%;
+                padding: 8% 0% 0% 8%;
 
                 div{
                     .label1{
@@ -2322,12 +2208,15 @@ main{
 
             .boton-enviar{
                 width: 17%;
-                margin: 4% 0% 0% 50%;
+                margin: 4% 0% 0% 45%;
             }
             
         }
     }
 }
+
+
+
 
 
 
@@ -2341,16 +2230,19 @@ body{
 
         .google{
             margin: 2% 3% 0% 5%;
+            width: 10%;
         }
         
         .youtube{
             margin: 2% 2% 0% 0%;
+            width: 10%;
         }
         
         p{
+            font-size: 80%;
             color: rgb(107, 107, 107);
             display: inline;
-            margin: 0% 0% 0% 63%;
+            margin: 0% 0% 0% 10%;
         }
     }
     
